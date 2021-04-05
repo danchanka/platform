@@ -5,496 +5,498 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.72">
 <link rel="alternate" type="application/rss+xml" href="/platform/blog/rss.xml" title="lsfusion documentation Blog RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/platform/blog/atom.xml" title="lsfusion documentation Blog Atom Feed"><title data-react-helmet="true">PRINT operator | lsfusion documentation</title><meta data-react-helmet="true" property="og:url" content="https://danchanka.github.io/platform/docs/PRINT_operator"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="1.0.0"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-1.0.0"><meta data-react-helmet="true" property="og:title" content="PRINT operator | lsfusion documentation"><meta data-react-helmet="true" name="description" content="The PRINT operator creates an action that opens a form in print view."><meta data-react-helmet="true" property="og:description" content="The PRINT operator creates an action that opens a form in print view."><link data-react-helmet="true" rel="shortcut icon" href="/platform/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://danchanka.github.io/platform/docs/PRINT_operator"><link data-react-helmet="true" rel="alternate" href="https://danchanka.github.io/platform/docs/PRINT_operator" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://danchanka.github.io/platform/ru/docs/PRINT_operator" hreflang="ru"><link data-react-helmet="true" rel="alternate" href="https://danchanka.github.io/platform/docs/PRINT_operator" hreflang="x-default"><link rel="stylesheet" href="/platform/assets/css/styles.33dbe562.css">
-<link rel="preload" href="/platform/assets/js/styles.5e502ecf.js" as="script">
-<link rel="preload" href="/platform/assets/js/runtime~main.f64242b3.js" as="script">
-<link rel="preload" href="/platform/assets/js/main.bfe79efc.js" as="script">
-<link rel="preload" href="/platform/assets/js/1.5e2a8f31.js" as="script">
-<link rel="preload" href="/platform/assets/js/2.4ab8d2b3.js" as="script">
-<link rel="preload" href="/platform/assets/js/677.4d06041c.js" as="script">
-<link rel="preload" href="/platform/assets/js/679.7b5b2597.js" as="script">
-<link rel="preload" href="/platform/assets/js/62e81aa6.8c6c695e.js" as="script">
-<link rel="preload" href="/platform/assets/js/676.6221f9f0.js" as="script">
-<link rel="preload" href="/platform/assets/js/fea0a320.173dabe5.js" as="script">
-<link rel="preload" href="/platform/assets/js/02cf41b2.403b8f4f.js" as="script">
-<link rel="preload" href="/platform/assets/js/055d38ed.3c862c7d.js" as="script">
-<link rel="preload" href="/platform/assets/js/057cd900.ce99e715.js" as="script">
-<link rel="preload" href="/platform/assets/js/05e7d225.8457ffc2.js" as="script">
-<link rel="preload" href="/platform/assets/js/0728ed1a.6446c0e4.js" as="script">
-<link rel="preload" href="/platform/assets/js/091072e1.d254c5f4.js" as="script">
-<link rel="preload" href="/platform/assets/js/0ac54d06.5a49d6e6.js" as="script">
-<link rel="preload" href="/platform/assets/js/0b9143cd.c422e744.js" as="script">
-<link rel="preload" href="/platform/assets/js/0d1f9d75.bfb664d1.js" as="script">
-<link rel="preload" href="/platform/assets/js/0d95c3a4.0871a326.js" as="script">
-<link rel="preload" href="/platform/assets/js/1129f13c.41680a3c.js" as="script">
-<link rel="preload" href="/platform/assets/js/1303c5fa.f9756b9d.js" as="script">
-<link rel="preload" href="/platform/assets/js/149aa36e.de128a5a.js" as="script">
-<link rel="preload" href="/platform/assets/js/178f6f28.f5e9c427.js" as="script">
-<link rel="preload" href="/platform/assets/js/1d6b11ea.cde203a0.js" as="script">
-<link rel="preload" href="/platform/assets/js/1e2d6c37.e7b70360.js" as="script">
-<link rel="preload" href="/platform/assets/js/1e37c77c.0f504516.js" as="script">
-<link rel="preload" href="/platform/assets/js/1ea5ad1d.284a5013.js" as="script">
-<link rel="preload" href="/platform/assets/js/20583e18.bc5975a2.js" as="script">
-<link rel="preload" href="/platform/assets/js/212598ea.4670525d.js" as="script">
-<link rel="preload" href="/platform/assets/js/22e67eba.cab921cb.js" as="script">
-<link rel="preload" href="/platform/assets/js/234b790f.45db8a5c.js" as="script">
-<link rel="preload" href="/platform/assets/js/23e5fdf9.8a0b6969.js" as="script">
-<link rel="preload" href="/platform/assets/js/23fe1d3f.d5fd6a6d.js" as="script">
-<link rel="preload" href="/platform/assets/js/24f05361.d6b4cb52.js" as="script">
-<link rel="preload" href="/platform/assets/js/254dfa13.a74353b5.js" as="script">
-<link rel="preload" href="/platform/assets/js/276449da.ebf4cf62.js" as="script">
-<link rel="preload" href="/platform/assets/js/2b1e5246.1e747d9a.js" as="script">
-<link rel="preload" href="/platform/assets/js/2bf77748.2b50ee10.js" as="script">
-<link rel="preload" href="/platform/assets/js/2c3ab3f1.d09143f9.js" as="script">
-<link rel="preload" href="/platform/assets/js/2d670c1e.897e6a8a.js" as="script">
-<link rel="preload" href="/platform/assets/js/2d789436.979f8293.js" as="script">
-<link rel="preload" href="/platform/assets/js/2e35da3d.fae487ae.js" as="script">
-<link rel="preload" href="/platform/assets/js/2e4a56fb.d441453c.js" as="script">
-<link rel="preload" href="/platform/assets/js/3005dd4d.d2c41dd3.js" as="script">
-<link rel="preload" href="/platform/assets/js/300858d3.a6eb9809.js" as="script">
-<link rel="preload" href="/platform/assets/js/315a282e.9a9fabcd.js" as="script">
-<link rel="preload" href="/platform/assets/js/32608d56.6bc10294.js" as="script">
-<link rel="preload" href="/platform/assets/js/338a7362.1b4fe1c2.js" as="script">
-<link rel="preload" href="/platform/assets/js/36c1c68f.f6ef8102.js" as="script">
-<link rel="preload" href="/platform/assets/js/372b3a0e.db90bc95.js" as="script">
-<link rel="preload" href="/platform/assets/js/37e02efb.f2e025dd.js" as="script">
-<link rel="preload" href="/platform/assets/js/3887e2d0.394e0cfc.js" as="script">
-<link rel="preload" href="/platform/assets/js/38933207.59bdc11e.js" as="script">
-<link rel="preload" href="/platform/assets/js/38b7e0ea.00799bb5.js" as="script">
-<link rel="preload" href="/platform/assets/js/3a256174.95761263.js" as="script">
-<link rel="preload" href="/platform/assets/js/3aaa6d23.37fa0683.js" as="script">
-<link rel="preload" href="/platform/assets/js/3b51d987.5069c927.js" as="script">
-<link rel="preload" href="/platform/assets/js/3c6cf903.06626932.js" as="script">
-<link rel="preload" href="/platform/assets/js/3cb7ceb2.3ffacef7.js" as="script">
-<link rel="preload" href="/platform/assets/js/3d2e0989.ec191850.js" as="script">
-<link rel="preload" href="/platform/assets/js/3e8fe86b.1f88abe8.js" as="script">
-<link rel="preload" href="/platform/assets/js/3e9d3fcc.84e0a183.js" as="script">
-<link rel="preload" href="/platform/assets/js/3f76992b.468da915.js" as="script">
-<link rel="preload" href="/platform/assets/js/3fe45d8f.ee4cd7b3.js" as="script">
-<link rel="preload" href="/platform/assets/js/4159ccfd.27e8dcc6.js" as="script">
-<link rel="preload" href="/platform/assets/js/433462d4.50f23f45.js" as="script">
-<link rel="preload" href="/platform/assets/js/436b3c34.39f5b85c.js" as="script">
-<link rel="preload" href="/platform/assets/js/4490beec.5f7ad9b0.js" as="script">
-<link rel="preload" href="/platform/assets/js/46345b46.3162e68b.js" as="script">
-<link rel="preload" href="/platform/assets/js/46a5267e.d211ee70.js" as="script">
-<link rel="preload" href="/platform/assets/js/47b1f664.6b3cc04c.js" as="script">
-<link rel="preload" href="/platform/assets/js/4851ff92.05e89394.js" as="script">
-<link rel="preload" href="/platform/assets/js/49a166ed.c955a434.js" as="script">
-<link rel="preload" href="/platform/assets/js/49ff04f0.ff9e1500.js" as="script">
-<link rel="preload" href="/platform/assets/js/4a03985f.5ef46aa9.js" as="script">
-<link rel="preload" href="/platform/assets/js/4ba65895.95520767.js" as="script">
-<link rel="preload" href="/platform/assets/js/4bc11c0c.9dcd7449.js" as="script">
-<link rel="preload" href="/platform/assets/js/4bc43e0f.87ed2761.js" as="script">
-<link rel="preload" href="/platform/assets/js/4c7fc8a5.18488fb7.js" as="script">
-<link rel="preload" href="/platform/assets/js/4ca17b87.2d7eb7d1.js" as="script">
-<link rel="preload" href="/platform/assets/js/4e0e936c.68f61977.js" as="script">
-<link rel="preload" href="/platform/assets/js/4fb00782.1b0716b5.js" as="script">
-<link rel="preload" href="/platform/assets/js/5000fe7b.5acb3894.js" as="script">
-<link rel="preload" href="/platform/assets/js/507401d0.825d0bdf.js" as="script">
-<link rel="preload" href="/platform/assets/js/512e3827.696f18d8.js" as="script">
-<link rel="preload" href="/platform/assets/js/51b2abaf.a199a429.js" as="script">
-<link rel="preload" href="/platform/assets/js/51be3a62.65dd684f.js" as="script">
-<link rel="preload" href="/platform/assets/js/52b9a572.cfdb9550.js" as="script">
-<link rel="preload" href="/platform/assets/js/5445ea56.97e1667d.js" as="script">
-<link rel="preload" href="/platform/assets/js/56832053.a274d018.js" as="script">
-<link rel="preload" href="/platform/assets/js/59c77126.d78d92f8.js" as="script">
-<link rel="preload" href="/platform/assets/js/5a8d065f.b338a7d4.js" as="script">
-<link rel="preload" href="/platform/assets/js/5b8e108a.b4c60c1f.js" as="script">
-<link rel="preload" href="/platform/assets/js/5bf6da99.977aa48c.js" as="script">
-<link rel="preload" href="/platform/assets/js/5c9ee379.87ab1df5.js" as="script">
-<link rel="preload" href="/platform/assets/js/5ee37c7c.5892e1c6.js" as="script">
-<link rel="preload" href="/platform/assets/js/6099d816.907f53a8.js" as="script">
-<link rel="preload" href="/platform/assets/js/60ceefa1.16eb8fc7.js" as="script">
-<link rel="preload" href="/platform/assets/js/635042b6.76fd1e76.js" as="script">
-<link rel="preload" href="/platform/assets/js/64465e86.a90141c9.js" as="script">
-<link rel="preload" href="/platform/assets/js/64c7e09a.06f326f2.js" as="script">
-<link rel="preload" href="/platform/assets/js/656a04d0.36d1f792.js" as="script">
-<link rel="preload" href="/platform/assets/js/65f8ead2.566157fc.js" as="script">
-<link rel="preload" href="/platform/assets/js/66f29aff.3a462ad6.js" as="script">
-<link rel="preload" href="/platform/assets/js/694ba81d.77bc99a7.js" as="script">
-<link rel="preload" href="/platform/assets/js/6c215858.bffff1b0.js" as="script">
-<link rel="preload" href="/platform/assets/js/6cfa853b.1191911f.js" as="script">
-<link rel="preload" href="/platform/assets/js/6d7e64b1.6f7a8a72.js" as="script">
-<link rel="preload" href="/platform/assets/js/6dc164ef.58af2429.js" as="script">
-<link rel="preload" href="/platform/assets/js/6e070440.8a43e810.js" as="script">
-<link rel="preload" href="/platform/assets/js/6e922910.419d070b.js" as="script">
-<link rel="preload" href="/platform/assets/js/6f314626.9f54403c.js" as="script">
-<link rel="preload" href="/platform/assets/js/70122da2.af41a374.js" as="script">
-<link rel="preload" href="/platform/assets/js/7142c3ba.41a0171b.js" as="script">
-<link rel="preload" href="/platform/assets/js/724ce59b.9fc78608.js" as="script">
-<link rel="preload" href="/platform/assets/js/72d9ef35.e31f7990.js" as="script">
-<link rel="preload" href="/platform/assets/js/7308f160.0927de23.js" as="script">
-<link rel="preload" href="/platform/assets/js/75f1b29a.071ee5ce.js" as="script">
-<link rel="preload" href="/platform/assets/js/792bd774.088be69e.js" as="script">
-<link rel="preload" href="/platform/assets/js/7b6926f9.ecb6a88c.js" as="script">
-<link rel="preload" href="/platform/assets/js/7bf8754e.4810f27d.js" as="script">
-<link rel="preload" href="/platform/assets/js/7cad2583.4e3ac3b1.js" as="script">
-<link rel="preload" href="/platform/assets/js/7de49955.b63ce3cb.js" as="script">
-<link rel="preload" href="/platform/assets/js/7e9fe388.f69bedbc.js" as="script">
-<link rel="preload" href="/platform/assets/js/7f99f37a.5e850e79.js" as="script">
-<link rel="preload" href="/platform/assets/js/8047f2e2.6b222ca3.js" as="script">
-<link rel="preload" href="/platform/assets/js/832fab57.ba7b08a9.js" as="script">
-<link rel="preload" href="/platform/assets/js/85a6b04a.7939de92.js" as="script">
-<link rel="preload" href="/platform/assets/js/86cb5a01.420270ef.js" as="script">
-<link rel="preload" href="/platform/assets/js/87a3d4f0.0a578a54.js" as="script">
-<link rel="preload" href="/platform/assets/js/880918a0.27eb8927.js" as="script">
-<link rel="preload" href="/platform/assets/js/891952a2.9bde464a.js" as="script">
-<link rel="preload" href="/platform/assets/js/8978937d.aaebd497.js" as="script">
-<link rel="preload" href="/platform/assets/js/89a7c761.88812699.js" as="script">
-<link rel="preload" href="/platform/assets/js/89b9dbbd.150f6e5e.js" as="script">
-<link rel="preload" href="/platform/assets/js/8abcb4e8.89d889d1.js" as="script">
-<link rel="preload" href="/platform/assets/js/8abf7dfa.09d1ec6b.js" as="script">
-<link rel="preload" href="/platform/assets/js/8b2e434d.532a11ea.js" as="script">
-<link rel="preload" href="/platform/assets/js/8b68c33f.dbc70683.js" as="script">
-<link rel="preload" href="/platform/assets/js/8f2b5f9d.56c8e377.js" as="script">
-<link rel="preload" href="/platform/assets/js/8f97277f.25996f40.js" as="script">
-<link rel="preload" href="/platform/assets/js/921d02b4.e26bd583.js" as="script">
-<link rel="preload" href="/platform/assets/js/966ad3ba.ef12e1eb.js" as="script">
-<link rel="preload" href="/platform/assets/js/96701661.6375c18d.js" as="script">
-<link rel="preload" href="/platform/assets/js/979761b2.338a7215.js" as="script">
-<link rel="preload" href="/platform/assets/js/97f223ca.87d6088c.js" as="script">
-<link rel="preload" href="/platform/assets/js/9847492c.f5cceafe.js" as="script">
-<link rel="preload" href="/platform/assets/js/98714c3e.cb8d5832.js" as="script">
-<link rel="preload" href="/platform/assets/js/99c37fc9.63ad8b82.js" as="script">
-<link rel="preload" href="/platform/assets/js/9a39e80f.157f2734.js" as="script">
-<link rel="preload" href="/platform/assets/js/9a5f0f4d.b4c63ce4.js" as="script">
-<link rel="preload" href="/platform/assets/js/9eaa3700.0ba3c5bd.js" as="script">
-<link rel="preload" href="/platform/assets/js/a0c3fdc4.1d11232b.js" as="script">
-<link rel="preload" href="/platform/assets/js/a33aa8bf.8a475281.js" as="script">
-<link rel="preload" href="/platform/assets/js/a45eee93.7dbfd4f2.js" as="script">
-<link rel="preload" href="/platform/assets/js/a599335a.fe672b88.js" as="script">
-<link rel="preload" href="/platform/assets/js/aab6a015.80c883ae.js" as="script">
-<link rel="preload" href="/platform/assets/js/aae0e801.9206ccef.js" as="script">
-<link rel="preload" href="/platform/assets/js/ab11e061.27982848.js" as="script">
-<link rel="preload" href="/platform/assets/js/abbda373.6d9ae1ea.js" as="script">
-<link rel="preload" href="/platform/assets/js/abce78e2.955f7eca.js" as="script">
-<link rel="preload" href="/platform/assets/js/abe7c977.2d959601.js" as="script">
-<link rel="preload" href="/platform/assets/js/ac50f896.57657b78.js" as="script">
-<link rel="preload" href="/platform/assets/js/acfc0a1e.32a34dc8.js" as="script">
-<link rel="preload" href="/platform/assets/js/ad15dd70.a83e2d25.js" as="script">
-<link rel="preload" href="/platform/assets/js/ae5f29c1.d118b818.js" as="script">
-<link rel="preload" href="/platform/assets/js/afb5f907.cc78de01.js" as="script">
-<link rel="preload" href="/platform/assets/js/b03b99b3.744090d7.js" as="script">
-<link rel="preload" href="/platform/assets/js/b1be29a4.0d26d580.js" as="script">
-<link rel="preload" href="/platform/assets/js/b1f3c280.04af13de.js" as="script">
-<link rel="preload" href="/platform/assets/js/b4eb30f8.15f533ec.js" as="script">
-<link rel="preload" href="/platform/assets/js/b750e133.7b99d172.js" as="script">
-<link rel="preload" href="/platform/assets/js/b7586aae.b51c0000.js" as="script">
-<link rel="preload" href="/platform/assets/js/b87c5296.de08d98a.js" as="script">
-<link rel="preload" href="/platform/assets/js/b87c77e9.db08bfa5.js" as="script">
-<link rel="preload" href="/platform/assets/js/ba41da55.e7813a2f.js" as="script">
-<link rel="preload" href="/platform/assets/js/bb3952ca.daa342d3.js" as="script">
-<link rel="preload" href="/platform/assets/js/bec381ae.9202a0f4.js" as="script">
-<link rel="preload" href="/platform/assets/js/bf48c92f.8fbbacec.js" as="script">
-<link rel="preload" href="/platform/assets/js/c226cfcb.90663ad9.js" as="script">
-<link rel="preload" href="/platform/assets/js/c4272b6a.720e0f70.js" as="script">
-<link rel="preload" href="/platform/assets/js/c4e936dc.a05c9829.js" as="script">
-<link rel="preload" href="/platform/assets/js/c665c037.7529e399.js" as="script">
-<link rel="preload" href="/platform/assets/js/c6d9ad80.1cb0edf0.js" as="script">
-<link rel="preload" href="/platform/assets/js/c7aa5aef.6630d911.js" as="script">
-<link rel="preload" href="/platform/assets/js/c7e13485.e44b5622.js" as="script">
-<link rel="preload" href="/platform/assets/js/c8902cf2.4ed49801.js" as="script">
-<link rel="preload" href="/platform/assets/js/c8eadaef.d2f46dc7.js" as="script">
-<link rel="preload" href="/platform/assets/js/c93c21b0.d91e4579.js" as="script">
-<link rel="preload" href="/platform/assets/js/ca8ce709.52e7bfb1.js" as="script">
-<link rel="preload" href="/platform/assets/js/cb430b5c.17d8e825.js" as="script">
-<link rel="preload" href="/platform/assets/js/cb71bf57.0a69928e.js" as="script">
-<link rel="preload" href="/platform/assets/js/cb827d5c.52cfa703.js" as="script">
-<link rel="preload" href="/platform/assets/js/cce28184.01e5a974.js" as="script">
-<link rel="preload" href="/platform/assets/js/ce81ae7f.fed17067.js" as="script">
-<link rel="preload" href="/platform/assets/js/ced44c85.c5ba5763.js" as="script">
-<link rel="preload" href="/platform/assets/js/cf5131d2.7e2c10b6.js" as="script">
-<link rel="preload" href="/platform/assets/js/cfb512ad.c4d5b7dc.js" as="script">
-<link rel="preload" href="/platform/assets/js/d0784048.6bb34cd6.js" as="script">
-<link rel="preload" href="/platform/assets/js/d0efe938.5c8d11f9.js" as="script">
-<link rel="preload" href="/platform/assets/js/d194e558.df49385a.js" as="script">
-<link rel="preload" href="/platform/assets/js/d1fe0c2c.d8f1e176.js" as="script">
-<link rel="preload" href="/platform/assets/js/d232f584.e5f98fd3.js" as="script">
-<link rel="preload" href="/platform/assets/js/d2a86b9f.e0db4c4b.js" as="script">
-<link rel="preload" href="/platform/assets/js/d45460e1.77424e4d.js" as="script">
-<link rel="preload" href="/platform/assets/js/d4adc898.7e692313.js" as="script">
-<link rel="preload" href="/platform/assets/js/d74835fb.fdf567ea.js" as="script">
-<link rel="preload" href="/platform/assets/js/d8baea4a.1850bb51.js" as="script">
-<link rel="preload" href="/platform/assets/js/da1b8711.560345a2.js" as="script">
-<link rel="preload" href="/platform/assets/js/da6aeb03.3bac1a1f.js" as="script">
-<link rel="preload" href="/platform/assets/js/da7e4aa8.f6c7cc1d.js" as="script">
-<link rel="preload" href="/platform/assets/js/dad6bec0.9c24a127.js" as="script">
-<link rel="preload" href="/platform/assets/js/db91f390.818f179f.js" as="script">
-<link rel="preload" href="/platform/assets/js/db92959b.a461a7b3.js" as="script">
-<link rel="preload" href="/platform/assets/js/e062d51a.7db913db.js" as="script">
-<link rel="preload" href="/platform/assets/js/e0878370.bd42e314.js" as="script">
-<link rel="preload" href="/platform/assets/js/e0c02b3a.dbb1496e.js" as="script">
-<link rel="preload" href="/platform/assets/js/e0cf2c8e.0bdeeead.js" as="script">
-<link rel="preload" href="/platform/assets/js/e28d672e.8feb1ada.js" as="script">
-<link rel="preload" href="/platform/assets/js/e407214d.a93a9f0d.js" as="script">
-<link rel="preload" href="/platform/assets/js/e43fbe80.80281a82.js" as="script">
-<link rel="preload" href="/platform/assets/js/e4b45c9c.cae61d45.js" as="script">
-<link rel="preload" href="/platform/assets/js/e7d8d16f.3374bb3e.js" as="script">
-<link rel="preload" href="/platform/assets/js/e97db18e.5ab4359c.js" as="script">
-<link rel="preload" href="/platform/assets/js/e98a046a.dfcc533d.js" as="script">
-<link rel="preload" href="/platform/assets/js/ecf82f20.86092526.js" as="script">
-<link rel="preload" href="/platform/assets/js/edb9f714.5fa0d919.js" as="script">
-<link rel="preload" href="/platform/assets/js/edce5b10.43b47c73.js" as="script">
-<link rel="preload" href="/platform/assets/js/ee5a4541.1552d334.js" as="script">
-<link rel="preload" href="/platform/assets/js/ee6d90eb.0242ff2d.js" as="script">
-<link rel="preload" href="/platform/assets/js/eeb030b0.10d7ddbb.js" as="script">
-<link rel="preload" href="/platform/assets/js/eeb8226e.6430281e.js" as="script">
-<link rel="preload" href="/platform/assets/js/eef11a92.9b25c51b.js" as="script">
-<link rel="preload" href="/platform/assets/js/f02a6661.9d28d344.js" as="script">
-<link rel="preload" href="/platform/assets/js/f71812da.7b16e4d2.js" as="script">
-<link rel="preload" href="/platform/assets/js/f7273328.e79896b8.js" as="script">
-<link rel="preload" href="/platform/assets/js/f9fad281.28a89caf.js" as="script">
-<link rel="preload" href="/platform/assets/js/fa7bca0e.ff1b09f5.js" as="script">
-<link rel="preload" href="/platform/assets/js/fc4cde34.877eea1f.js" as="script">
-<link rel="preload" href="/platform/assets/js/fc9c40ca.2769bb16.js" as="script">
-<link rel="preload" href="/platform/assets/js/fd629b38.c9bdd262.js" as="script">
-<link rel="preload" href="/platform/assets/js/fe09dcc3.1a4e9542.js" as="script">
+<link rel="alternate" type="application/atom+xml" href="/platform/blog/atom.xml" title="lsfusion documentation Blog Atom Feed"><title data-react-helmet="true">PRINT operator | lsfusion documentation</title><meta data-react-helmet="true" property="og:url" content="https://danchanka.github.io/platform/docs/PRINT_operator"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="1.0.0"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-1.0.0"><meta data-react-helmet="true" property="og:title" content="PRINT operator | lsfusion documentation"><meta data-react-helmet="true" name="description" content="The PRINT operator creates an action that opens a form in print view."><meta data-react-helmet="true" property="og:description" content="The PRINT operator creates an action that opens a form in print view."><link data-react-helmet="true" rel="shortcut icon" href="/platform/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://danchanka.github.io/platform/docs/PRINT_operator"><link data-react-helmet="true" rel="alternate" href="https://danchanka.github.io/platform/docs/PRINT_operator" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://danchanka.github.io/platform/ru/docs/PRINT_operator" hreflang="ru"><link data-react-helmet="true" rel="alternate" href="https://danchanka.github.io/platform/docs/PRINT_operator" hreflang="x-default"><link rel="stylesheet" href="/platform/assets/css/styles.97df21ea.css">
+<link rel="preload" href="/platform/assets/js/styles.bde69f69.js" as="script">
+<link rel="preload" href="/platform/assets/js/runtime~main.7007f35c.js" as="script">
+<link rel="preload" href="/platform/assets/js/main.a4e9f1c0.js" as="script">
+<link rel="preload" href="/platform/assets/js/1.9908c2ac.js" as="script">
+<link rel="preload" href="/platform/assets/js/2.a97b3687.js" as="script">
+<link rel="preload" href="/platform/assets/js/3.7ce4d1a5.js" as="script">
+<link rel="preload" href="/platform/assets/js/1be78505.84ef844f.js" as="script">
+<link rel="preload" href="/platform/assets/js/679.dcf5dbdc.js" as="script">
+<link rel="preload" href="/platform/assets/js/62e81aa6.ca6e1e2c.js" as="script">
+<link rel="preload" href="/platform/assets/js/17896441.9187a611.js" as="script">
+<link rel="preload" href="/platform/assets/js/fea0a320.05a27cd7.js" as="script">
+<link rel="preload" href="/platform/assets/js/02cf41b2.2300afc4.js" as="script">
+<link rel="preload" href="/platform/assets/js/055d38ed.f546895b.js" as="script">
+<link rel="preload" href="/platform/assets/js/057cd900.84964493.js" as="script">
+<link rel="preload" href="/platform/assets/js/05e7d225.841b68f7.js" as="script">
+<link rel="preload" href="/platform/assets/js/0728ed1a.bd1e62f6.js" as="script">
+<link rel="preload" href="/platform/assets/js/091072e1.b7b26c73.js" as="script">
+<link rel="preload" href="/platform/assets/js/0ac54d06.7b0058aa.js" as="script">
+<link rel="preload" href="/platform/assets/js/0b9143cd.f9f9d435.js" as="script">
+<link rel="preload" href="/platform/assets/js/0d1f9d75.b6794090.js" as="script">
+<link rel="preload" href="/platform/assets/js/0d95c3a4.18693c14.js" as="script">
+<link rel="preload" href="/platform/assets/js/1129f13c.dee4ab73.js" as="script">
+<link rel="preload" href="/platform/assets/js/1303c5fa.61d821a4.js" as="script">
+<link rel="preload" href="/platform/assets/js/149aa36e.03d1faf1.js" as="script">
+<link rel="preload" href="/platform/assets/js/178f6f28.733a2648.js" as="script">
+<link rel="preload" href="/platform/assets/js/1d6b11ea.a839f125.js" as="script">
+<link rel="preload" href="/platform/assets/js/1e2d6c37.ab82dab8.js" as="script">
+<link rel="preload" href="/platform/assets/js/1e37c77c.e6ca881f.js" as="script">
+<link rel="preload" href="/platform/assets/js/1ea5ad1d.3febe492.js" as="script">
+<link rel="preload" href="/platform/assets/js/20583e18.f9a3002d.js" as="script">
+<link rel="preload" href="/platform/assets/js/212598ea.a0a2c059.js" as="script">
+<link rel="preload" href="/platform/assets/js/22e67eba.a6552358.js" as="script">
+<link rel="preload" href="/platform/assets/js/234b790f.6fa5f4ea.js" as="script">
+<link rel="preload" href="/platform/assets/js/23e5fdf9.e4ab648f.js" as="script">
+<link rel="preload" href="/platform/assets/js/23fe1d3f.79365183.js" as="script">
+<link rel="preload" href="/platform/assets/js/24f05361.3fc0acef.js" as="script">
+<link rel="preload" href="/platform/assets/js/254dfa13.57b54b9b.js" as="script">
+<link rel="preload" href="/platform/assets/js/276449da.e22ff16c.js" as="script">
+<link rel="preload" href="/platform/assets/js/2b1e5246.6809fcd4.js" as="script">
+<link rel="preload" href="/platform/assets/js/2bf77748.8eed5ed4.js" as="script">
+<link rel="preload" href="/platform/assets/js/2c3ab3f1.47155b65.js" as="script">
+<link rel="preload" href="/platform/assets/js/2d670c1e.772666bd.js" as="script">
+<link rel="preload" href="/platform/assets/js/2d789436.a506a1bc.js" as="script">
+<link rel="preload" href="/platform/assets/js/2e35da3d.d8bdde76.js" as="script">
+<link rel="preload" href="/platform/assets/js/2e4a56fb.926f793f.js" as="script">
+<link rel="preload" href="/platform/assets/js/3005dd4d.a4a6f217.js" as="script">
+<link rel="preload" href="/platform/assets/js/300858d3.727073c0.js" as="script">
+<link rel="preload" href="/platform/assets/js/315a282e.cff0c73b.js" as="script">
+<link rel="preload" href="/platform/assets/js/32608d56.bf9dc26e.js" as="script">
+<link rel="preload" href="/platform/assets/js/338a7362.f708f395.js" as="script">
+<link rel="preload" href="/platform/assets/js/36c1c68f.8e648a58.js" as="script">
+<link rel="preload" href="/platform/assets/js/372b3a0e.d7ac4218.js" as="script">
+<link rel="preload" href="/platform/assets/js/37e02efb.6d00aa73.js" as="script">
+<link rel="preload" href="/platform/assets/js/3887e2d0.6b73782a.js" as="script">
+<link rel="preload" href="/platform/assets/js/38933207.26ac41e6.js" as="script">
+<link rel="preload" href="/platform/assets/js/38b7e0ea.24063eb3.js" as="script">
+<link rel="preload" href="/platform/assets/js/3a256174.5db1bbb8.js" as="script">
+<link rel="preload" href="/platform/assets/js/3aaa6d23.e5b447a7.js" as="script">
+<link rel="preload" href="/platform/assets/js/3b51d987.34edf10d.js" as="script">
+<link rel="preload" href="/platform/assets/js/3c6cf903.acbdba2a.js" as="script">
+<link rel="preload" href="/platform/assets/js/3cb7ceb2.01a711b7.js" as="script">
+<link rel="preload" href="/platform/assets/js/3d2e0989.9429947b.js" as="script">
+<link rel="preload" href="/platform/assets/js/3e8fe86b.8499d235.js" as="script">
+<link rel="preload" href="/platform/assets/js/3e9d3fcc.6b6f4fa9.js" as="script">
+<link rel="preload" href="/platform/assets/js/3f76992b.46e9af87.js" as="script">
+<link rel="preload" href="/platform/assets/js/3fe45d8f.6840654f.js" as="script">
+<link rel="preload" href="/platform/assets/js/4159ccfd.28c499d1.js" as="script">
+<link rel="preload" href="/platform/assets/js/433462d4.fcac4804.js" as="script">
+<link rel="preload" href="/platform/assets/js/436b3c34.306bf445.js" as="script">
+<link rel="preload" href="/platform/assets/js/4490beec.72cd9a69.js" as="script">
+<link rel="preload" href="/platform/assets/js/46345b46.0e915bdf.js" as="script">
+<link rel="preload" href="/platform/assets/js/46a5267e.4617ff0b.js" as="script">
+<link rel="preload" href="/platform/assets/js/47b1f664.9c14d602.js" as="script">
+<link rel="preload" href="/platform/assets/js/4851ff92.295f44b5.js" as="script">
+<link rel="preload" href="/platform/assets/js/49a166ed.42e43e37.js" as="script">
+<link rel="preload" href="/platform/assets/js/49ff04f0.bacb43de.js" as="script">
+<link rel="preload" href="/platform/assets/js/4a03985f.480431f8.js" as="script">
+<link rel="preload" href="/platform/assets/js/4ba65895.ed41be29.js" as="script">
+<link rel="preload" href="/platform/assets/js/4bc11c0c.66462cbb.js" as="script">
+<link rel="preload" href="/platform/assets/js/4bc43e0f.d3a8f451.js" as="script">
+<link rel="preload" href="/platform/assets/js/4c7fc8a5.e5f5b1aa.js" as="script">
+<link rel="preload" href="/platform/assets/js/4ca17b87.9dc1bd28.js" as="script">
+<link rel="preload" href="/platform/assets/js/4e0e936c.d5a42896.js" as="script">
+<link rel="preload" href="/platform/assets/js/4fb00782.18c4b772.js" as="script">
+<link rel="preload" href="/platform/assets/js/5000fe7b.f6ec63d5.js" as="script">
+<link rel="preload" href="/platform/assets/js/507401d0.984a7ef5.js" as="script">
+<link rel="preload" href="/platform/assets/js/512e3827.3a6442b0.js" as="script">
+<link rel="preload" href="/platform/assets/js/51b2abaf.c299b43b.js" as="script">
+<link rel="preload" href="/platform/assets/js/51be3a62.4a8f7bb0.js" as="script">
+<link rel="preload" href="/platform/assets/js/52b9a572.9c3cd06a.js" as="script">
+<link rel="preload" href="/platform/assets/js/5445ea56.2cf80f52.js" as="script">
+<link rel="preload" href="/platform/assets/js/56832053.a93b2d74.js" as="script">
+<link rel="preload" href="/platform/assets/js/59c77126.cbc07e5f.js" as="script">
+<link rel="preload" href="/platform/assets/js/5a8d065f.56befe0f.js" as="script">
+<link rel="preload" href="/platform/assets/js/5b8e108a.a9fd689b.js" as="script">
+<link rel="preload" href="/platform/assets/js/5bf6da99.7fdd7af5.js" as="script">
+<link rel="preload" href="/platform/assets/js/5c9ee379.e9f75cd2.js" as="script">
+<link rel="preload" href="/platform/assets/js/5ee37c7c.126afa68.js" as="script">
+<link rel="preload" href="/platform/assets/js/6099d816.b4238d50.js" as="script">
+<link rel="preload" href="/platform/assets/js/60ceefa1.c9261fd3.js" as="script">
+<link rel="preload" href="/platform/assets/js/635042b6.98468f95.js" as="script">
+<link rel="preload" href="/platform/assets/js/64465e86.ec82eb92.js" as="script">
+<link rel="preload" href="/platform/assets/js/64c7e09a.298b99c0.js" as="script">
+<link rel="preload" href="/platform/assets/js/656a04d0.24bf2156.js" as="script">
+<link rel="preload" href="/platform/assets/js/65f8ead2.7cb1e148.js" as="script">
+<link rel="preload" href="/platform/assets/js/66f29aff.af2a7573.js" as="script">
+<link rel="preload" href="/platform/assets/js/694ba81d.d9922a31.js" as="script">
+<link rel="preload" href="/platform/assets/js/6c215858.9a62a310.js" as="script">
+<link rel="preload" href="/platform/assets/js/6cfa853b.191485e6.js" as="script">
+<link rel="preload" href="/platform/assets/js/6d7e64b1.fbc47045.js" as="script">
+<link rel="preload" href="/platform/assets/js/6dc164ef.eeb70c96.js" as="script">
+<link rel="preload" href="/platform/assets/js/6e070440.d1e55e52.js" as="script">
+<link rel="preload" href="/platform/assets/js/6e922910.e4b59349.js" as="script">
+<link rel="preload" href="/platform/assets/js/6f314626.9a09a837.js" as="script">
+<link rel="preload" href="/platform/assets/js/70122da2.d8a2582a.js" as="script">
+<link rel="preload" href="/platform/assets/js/7142c3ba.9fddbaeb.js" as="script">
+<link rel="preload" href="/platform/assets/js/724ce59b.fe11d1d9.js" as="script">
+<link rel="preload" href="/platform/assets/js/72d9ef35.5b5d471e.js" as="script">
+<link rel="preload" href="/platform/assets/js/7308f160.69dd6512.js" as="script">
+<link rel="preload" href="/platform/assets/js/75f1b29a.3ff80eb3.js" as="script">
+<link rel="preload" href="/platform/assets/js/792bd774.1f2b02f2.js" as="script">
+<link rel="preload" href="/platform/assets/js/7b6926f9.84bb832f.js" as="script">
+<link rel="preload" href="/platform/assets/js/7bf8754e.7cc953c2.js" as="script">
+<link rel="preload" href="/platform/assets/js/7cad2583.f76e7d75.js" as="script">
+<link rel="preload" href="/platform/assets/js/7de49955.74dd01ae.js" as="script">
+<link rel="preload" href="/platform/assets/js/7e9fe388.fe169ccc.js" as="script">
+<link rel="preload" href="/platform/assets/js/7f99f37a.2c84446f.js" as="script">
+<link rel="preload" href="/platform/assets/js/8047f2e2.287c0601.js" as="script">
+<link rel="preload" href="/platform/assets/js/832fab57.21921f31.js" as="script">
+<link rel="preload" href="/platform/assets/js/85a6b04a.7b1d4a04.js" as="script">
+<link rel="preload" href="/platform/assets/js/86cb5a01.1c07535a.js" as="script">
+<link rel="preload" href="/platform/assets/js/87a3d4f0.2e176b46.js" as="script">
+<link rel="preload" href="/platform/assets/js/880918a0.0e274690.js" as="script">
+<link rel="preload" href="/platform/assets/js/891952a2.2f19bcab.js" as="script">
+<link rel="preload" href="/platform/assets/js/8978937d.460fab29.js" as="script">
+<link rel="preload" href="/platform/assets/js/89a7c761.c8de9222.js" as="script">
+<link rel="preload" href="/platform/assets/js/89b9dbbd.39c1ebc7.js" as="script">
+<link rel="preload" href="/platform/assets/js/8abcb4e8.7b2d66cd.js" as="script">
+<link rel="preload" href="/platform/assets/js/8abf7dfa.aef8d4b6.js" as="script">
+<link rel="preload" href="/platform/assets/js/8b2e434d.ec85c9d8.js" as="script">
+<link rel="preload" href="/platform/assets/js/8b68c33f.1567fd10.js" as="script">
+<link rel="preload" href="/platform/assets/js/8f2b5f9d.e783db70.js" as="script">
+<link rel="preload" href="/platform/assets/js/8f97277f.38f12e13.js" as="script">
+<link rel="preload" href="/platform/assets/js/921d02b4.0664e858.js" as="script">
+<link rel="preload" href="/platform/assets/js/966ad3ba.024253cf.js" as="script">
+<link rel="preload" href="/platform/assets/js/96701661.3f251ed4.js" as="script">
+<link rel="preload" href="/platform/assets/js/979761b2.6a8ede90.js" as="script">
+<link rel="preload" href="/platform/assets/js/97f223ca.59cdc44d.js" as="script">
+<link rel="preload" href="/platform/assets/js/9847492c.f347e356.js" as="script">
+<link rel="preload" href="/platform/assets/js/98714c3e.a500d1b2.js" as="script">
+<link rel="preload" href="/platform/assets/js/99c37fc9.3355b655.js" as="script">
+<link rel="preload" href="/platform/assets/js/9a39e80f.54469c64.js" as="script">
+<link rel="preload" href="/platform/assets/js/9a5f0f4d.c3a01789.js" as="script">
+<link rel="preload" href="/platform/assets/js/9eaa3700.99cf0274.js" as="script">
+<link rel="preload" href="/platform/assets/js/a0c3fdc4.efdb2ae8.js" as="script">
+<link rel="preload" href="/platform/assets/js/a33aa8bf.0e95fde3.js" as="script">
+<link rel="preload" href="/platform/assets/js/a45eee93.5a0d4cad.js" as="script">
+<link rel="preload" href="/platform/assets/js/a599335a.113aa2da.js" as="script">
+<link rel="preload" href="/platform/assets/js/aab6a015.7d7bcfbe.js" as="script">
+<link rel="preload" href="/platform/assets/js/aae0e801.40c11b0e.js" as="script">
+<link rel="preload" href="/platform/assets/js/ab11e061.f04da91b.js" as="script">
+<link rel="preload" href="/platform/assets/js/abbda373.237fd34a.js" as="script">
+<link rel="preload" href="/platform/assets/js/abce78e2.c533a82e.js" as="script">
+<link rel="preload" href="/platform/assets/js/abe7c977.13325304.js" as="script">
+<link rel="preload" href="/platform/assets/js/ac50f896.dfba073f.js" as="script">
+<link rel="preload" href="/platform/assets/js/acfc0a1e.46ed6b83.js" as="script">
+<link rel="preload" href="/platform/assets/js/ad15dd70.e4185481.js" as="script">
+<link rel="preload" href="/platform/assets/js/ae5f29c1.9a7c2c45.js" as="script">
+<link rel="preload" href="/platform/assets/js/afb5f907.19a0377b.js" as="script">
+<link rel="preload" href="/platform/assets/js/b03b99b3.2b73638a.js" as="script">
+<link rel="preload" href="/platform/assets/js/b1be29a4.f713fb4b.js" as="script">
+<link rel="preload" href="/platform/assets/js/b1f3c280.3df1646a.js" as="script">
+<link rel="preload" href="/platform/assets/js/b4eb30f8.9928ec84.js" as="script">
+<link rel="preload" href="/platform/assets/js/b750e133.9ce9fb15.js" as="script">
+<link rel="preload" href="/platform/assets/js/b7586aae.1800bae2.js" as="script">
+<link rel="preload" href="/platform/assets/js/b87c5296.51395505.js" as="script">
+<link rel="preload" href="/platform/assets/js/b87c77e9.0ffc6450.js" as="script">
+<link rel="preload" href="/platform/assets/js/ba41da55.32dad9c8.js" as="script">
+<link rel="preload" href="/platform/assets/js/bb3952ca.20432a77.js" as="script">
+<link rel="preload" href="/platform/assets/js/bec381ae.50ffd757.js" as="script">
+<link rel="preload" href="/platform/assets/js/bf48c92f.1fee823f.js" as="script">
+<link rel="preload" href="/platform/assets/js/c226cfcb.b8d51b27.js" as="script">
+<link rel="preload" href="/platform/assets/js/c4272b6a.fea48c98.js" as="script">
+<link rel="preload" href="/platform/assets/js/c4e936dc.2ef48d42.js" as="script">
+<link rel="preload" href="/platform/assets/js/c665c037.fc406243.js" as="script">
+<link rel="preload" href="/platform/assets/js/c6d9ad80.ba5dc165.js" as="script">
+<link rel="preload" href="/platform/assets/js/c7aa5aef.682f3f5b.js" as="script">
+<link rel="preload" href="/platform/assets/js/c7e13485.837d84dc.js" as="script">
+<link rel="preload" href="/platform/assets/js/c8902cf2.57d97595.js" as="script">
+<link rel="preload" href="/platform/assets/js/c8eadaef.af92c2c2.js" as="script">
+<link rel="preload" href="/platform/assets/js/c93c21b0.c112ba3d.js" as="script">
+<link rel="preload" href="/platform/assets/js/ca8ce709.d5e754c2.js" as="script">
+<link rel="preload" href="/platform/assets/js/cb430b5c.f9e545b3.js" as="script">
+<link rel="preload" href="/platform/assets/js/cb71bf57.e2eb3853.js" as="script">
+<link rel="preload" href="/platform/assets/js/cb827d5c.11049f51.js" as="script">
+<link rel="preload" href="/platform/assets/js/cce28184.e9bf1354.js" as="script">
+<link rel="preload" href="/platform/assets/js/ce81ae7f.ab922e9a.js" as="script">
+<link rel="preload" href="/platform/assets/js/ced44c85.b727430b.js" as="script">
+<link rel="preload" href="/platform/assets/js/cf5131d2.ebf26a24.js" as="script">
+<link rel="preload" href="/platform/assets/js/cfb512ad.bb3567d5.js" as="script">
+<link rel="preload" href="/platform/assets/js/d0784048.455587e7.js" as="script">
+<link rel="preload" href="/platform/assets/js/d0efe938.854714d3.js" as="script">
+<link rel="preload" href="/platform/assets/js/d194e558.ac8c31a2.js" as="script">
+<link rel="preload" href="/platform/assets/js/d1fe0c2c.c5c2abaf.js" as="script">
+<link rel="preload" href="/platform/assets/js/d232f584.750b09bf.js" as="script">
+<link rel="preload" href="/platform/assets/js/d2a86b9f.daccbc3f.js" as="script">
+<link rel="preload" href="/platform/assets/js/d45460e1.fb514917.js" as="script">
+<link rel="preload" href="/platform/assets/js/d4adc898.c11501f4.js" as="script">
+<link rel="preload" href="/platform/assets/js/d74835fb.66f02ca4.js" as="script">
+<link rel="preload" href="/platform/assets/js/d8baea4a.d326bf4d.js" as="script">
+<link rel="preload" href="/platform/assets/js/da1b8711.bf8542fd.js" as="script">
+<link rel="preload" href="/platform/assets/js/da6aeb03.2e8f8213.js" as="script">
+<link rel="preload" href="/platform/assets/js/da7e4aa8.3117f7e5.js" as="script">
+<link rel="preload" href="/platform/assets/js/dad6bec0.b2da58d3.js" as="script">
+<link rel="preload" href="/platform/assets/js/db91f390.8eccd32b.js" as="script">
+<link rel="preload" href="/platform/assets/js/db92959b.70f1398b.js" as="script">
+<link rel="preload" href="/platform/assets/js/e062d51a.601dce11.js" as="script">
+<link rel="preload" href="/platform/assets/js/e0878370.80a7eff5.js" as="script">
+<link rel="preload" href="/platform/assets/js/e0c02b3a.3fd70b83.js" as="script">
+<link rel="preload" href="/platform/assets/js/e0cf2c8e.ccac2b75.js" as="script">
+<link rel="preload" href="/platform/assets/js/e28d672e.fdfedddc.js" as="script">
+<link rel="preload" href="/platform/assets/js/e407214d.545f75dc.js" as="script">
+<link rel="preload" href="/platform/assets/js/e43fbe80.73dd96b4.js" as="script">
+<link rel="preload" href="/platform/assets/js/e4b45c9c.8ed95867.js" as="script">
+<link rel="preload" href="/platform/assets/js/e7d8d16f.5cbf9f63.js" as="script">
+<link rel="preload" href="/platform/assets/js/e97db18e.0f6c9029.js" as="script">
+<link rel="preload" href="/platform/assets/js/e98a046a.fc46e3b9.js" as="script">
+<link rel="preload" href="/platform/assets/js/ecf82f20.c7c4887e.js" as="script">
+<link rel="preload" href="/platform/assets/js/edb9f714.6130d7e2.js" as="script">
+<link rel="preload" href="/platform/assets/js/edce5b10.dc00bf45.js" as="script">
+<link rel="preload" href="/platform/assets/js/ee5a4541.080094e6.js" as="script">
+<link rel="preload" href="/platform/assets/js/ee6d90eb.7e1b6aa8.js" as="script">
+<link rel="preload" href="/platform/assets/js/eeb030b0.7f42b271.js" as="script">
+<link rel="preload" href="/platform/assets/js/eeb8226e.9e131c54.js" as="script">
+<link rel="preload" href="/platform/assets/js/eef11a92.ac108fa3.js" as="script">
+<link rel="preload" href="/platform/assets/js/f02a6661.6b438467.js" as="script">
+<link rel="preload" href="/platform/assets/js/f71812da.db2de4aa.js" as="script">
+<link rel="preload" href="/platform/assets/js/f7273328.94687ab4.js" as="script">
+<link rel="preload" href="/platform/assets/js/f9fad281.8d0a01b0.js" as="script">
+<link rel="preload" href="/platform/assets/js/fa7bca0e.7403e3f4.js" as="script">
+<link rel="preload" href="/platform/assets/js/fc4cde34.a884629c.js" as="script">
+<link rel="preload" href="/platform/assets/js/fc9c40ca.fd98ba76.js" as="script">
+<link rel="preload" href="/platform/assets/js/fd629b38.b3617d2e.js" as="script">
+<link rel="preload" href="/platform/assets/js/fe09dcc3.9efc23ad.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
 <div><a href="#main" class="skipToContent_1oUP">Skip to main content</a></div><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle" type="button" tabindex="0"><svg aria-label="Menu" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/platform/"><img src="/platform/img/logo.svg" alt="My Site Logo" class="themedImage_1VuW themedImage--light_3UqQ navbar__logo"><img src="/platform/img/logo.svg" alt="My Site Logo" class="themedImage_1VuW themedImage--dark_hz6m navbar__logo"><strong class="navbar__title">lsfusion</strong></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/platform/docs/Learn">Docs</a><a class="navbar__item navbar__link" href="/platform/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/danchanka/platform" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub</a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a class="navbar__item navbar__link" href="/platform/docs/Install">1.0.0</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/platform/docs/next/PRINT_operator">Next</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/platform/docs/PRINT_operator">1.0.0</a></li></ul></div><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" class="navbar__item navbar__link"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" style="vertical-align:text-bottom;margin-right:5px"><path fill="currentColor" d="M19.753 10.909c-.624-1.707-2.366-2.726-4.661-2.726-.09 0-.176.002-.262.006l-.016-2.063 3.525-.607c.115-.019.133-.119.109-.231-.023-.111-.167-.883-.188-.976-.027-.131-.102-.127-.207-.109-.104.018-3.25.461-3.25.461l-.013-2.078c-.001-.125-.069-.158-.194-.156l-1.025.016c-.105.002-.164.049-.162.148l.033 2.307s-3.061.527-3.144.543c-.084.014-.17.053-.151.143.019.09.19 1.094.208 1.172.018.08.072.129.188.107l2.924-.504.035 2.018c-1.077.281-1.801.824-2.256 1.303-.768.807-1.207 1.887-1.207 2.963 0 1.586.971 2.529 2.328 2.695 3.162.387 5.119-3.06 5.769-4.715 1.097 1.506.256 4.354-2.094 5.98-.043.029-.098.129-.033.207l.619.756c.08.096.206.059.256.023 2.51-1.73 3.661-4.515 2.869-6.683zm-7.386 3.188c-.966-.121-.944-.914-.944-1.453 0-.773.327-1.58.876-2.156a3.21 3.21 0 011.229-.799l.082 4.277a2.773 2.773 0 01-1.243.131zm2.427-.553l.046-4.109c.084-.004.166-.01.252-.01.773 0 1.494.145 1.885.361.391.217-1.023 2.713-2.183 3.758zm-8.95-7.668a.196.196 0 00-.196-.145h-1.95a.194.194 0 00-.194.144L.008 16.916c-.017.051-.011.076.062.076h1.733c.075 0 .099-.023.114-.072l1.008-3.318h3.496l1.008 3.318c.016.049.039.072.113.072h1.734c.072 0 .078-.025.062-.076-.014-.05-3.083-9.741-3.494-11.04zm-2.618 6.318l1.447-5.25 1.447 5.25H3.226z"></path></svg><span>English</span></span></a><ul class="dropdown__menu"><li><a href="/platform/docs/PRINT_operator" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active">English</a></li><li><a href="/platform/ru/docs/PRINT_operator" target="_self" rel="noopener noreferrer" class="dropdown__link">Русский</a></li></ul></div><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_GrZ2"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_71bT">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_71bT">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/platform/"><img src="/platform/img/logo.svg" alt="My Site Logo" class="themedImage_1VuW themedImage--light_3UqQ navbar__logo"><img src="/platform/img/logo.svg" alt="My Site Logo" class="themedImage_1VuW themedImage--dark_hz6m navbar__logo"><strong class="navbar__title">lsfusion</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a aria-current="page" class="menu__link navbar__link--active" href="/platform/docs/Learn">Docs</a></li><li class="menu__list-item"><a class="menu__link" href="/platform/blog">Blog</a></li><li class="menu__list-item"><a href="https://github.com/danchanka/platform" target="_blank" rel="noopener noreferrer" class="menu__link">GitHub</a></li><li class="menu__list-item"><a role="button" class="menu__link menu__link--sublist">Versions</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/platform/docs/next/PRINT_operator">Next</a></li><li class="menu__list-item"><a aria-current="page" class="menu__link menu__link--active" href="/platform/docs/PRINT_operator">1.0.0</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a href="#" role="button" class="menu__link menu__link--sublist"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" style="vertical-align:text-bottom;margin-right:5px"><path fill="currentColor" d="M19.753 10.909c-.624-1.707-2.366-2.726-4.661-2.726-.09 0-.176.002-.262.006l-.016-2.063 3.525-.607c.115-.019.133-.119.109-.231-.023-.111-.167-.883-.188-.976-.027-.131-.102-.127-.207-.109-.104.018-3.25.461-3.25.461l-.013-2.078c-.001-.125-.069-.158-.194-.156l-1.025.016c-.105.002-.164.049-.162.148l.033 2.307s-3.061.527-3.144.543c-.084.014-.17.053-.151.143.019.09.19 1.094.208 1.172.018.08.072.129.188.107l2.924-.504.035 2.018c-1.077.281-1.801.824-2.256 1.303-.768.807-1.207 1.887-1.207 2.963 0 1.586.971 2.529 2.328 2.695 3.162.387 5.119-3.06 5.769-4.715 1.097 1.506.256 4.354-2.094 5.98-.043.029-.098.129-.033.207l.619.756c.08.096.206.059.256.023 2.51-1.73 3.661-4.515 2.869-6.683zm-7.386 3.188c-.966-.121-.944-.914-.944-1.453 0-.773.327-1.58.876-2.156a3.21 3.21 0 011.229-.799l.082 4.277a2.773 2.773 0 01-1.243.131zm2.427-.553l.046-4.109c.084-.004.166-.01.252-.01.773 0 1.494.145 1.885.361.391.217-1.023 2.713-2.183 3.758zm-8.95-7.668a.196.196 0 00-.196-.145h-1.95a.194.194 0 00-.194.144L.008 16.916c-.017.051-.011.076.062.076h1.733c.075 0 .099-.023.114-.072l1.008-3.318h3.496l1.008 3.318c.016.049.039.072.113.072h1.734c.072 0 .078-.025.062-.076-.014-.05-3.083-9.741-3.494-11.04zm-2.618 6.318l1.447-5.25 1.447 5.25H3.226z"></path></svg><span>Languages</span></span></a><ul class="menu__list"><li class="menu__list-item"><a href="/platform/docs/PRINT_operator" target="_self" rel="noopener noreferrer" class="menu__link dropdown__link--active">English</a></li><li class="menu__list-item"><a href="/platform/ru/docs/PRINT_operator" target="_self" rel="noopener noreferrer" class="menu__link">Русский</a></li></ul></li></ul></div></div></div></nav><div class="main-wrapper main-docs-wrapper"><div class="docPage_31aa"><div class="docSidebarContainer_3Kbt" role="complementary"><div class="sidebar_15mo"><div class="menu menu--responsive thin-scrollbar menu_Bmed"><button aria-label="Open menu" aria-haspopup="true" class="button button--secondary button--sm menu__button" type="button"><svg aria-label="Menu" class="sidebarMenuIcon_fgN0" width="24" height="24" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><ul class="menu__list"><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!">Install</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Install">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Automatic installation</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Automatic_installation">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Development_auto_">Development (auto)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Execution_auto_">Execution (auto)</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Manual installation</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Manual_installation">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Development_manual_">Development (manual)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Execution_manual_">Execution (manual)</a></li></ul></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!">Learn</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Learn">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="0">Paradigm</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Paradigm">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Logical model</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Logical_model">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Domain logic</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Domain_logic">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Properties</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Properties">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Operators</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Operators">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Data_properties_DATA_">Data properties (DATA)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Composition_JOIN_">Composition (JOIN)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Constant">Constant</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Primitive operations</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Primitive_operations">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Arithmetic_operators_+_-_..._">Arithmetic operators (+, -, \*, ...)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Logical_operators_AND_OR_NOT_XOR_">Logical operators (AND, OR, NOT, XOR)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Comparison_operators_=_..._">Comparison operators (=, \&gt;, &lt;, ...)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Extremum_MAX_MIN_">Extremum (MAX, MIN)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/String_operators_+_CONCAT_SUBSTRING_">String operators (+, CONCAT, SUBSTRING)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Structure_operations_STRUCT_">Structure operations (STRUCT, \[\])</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Type_conversion">Type conversion</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Class operations</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Class_operations">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Classification_IS_AS_">Classification (IS/AS)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Property_signature_CLASS_">Property signature (CLASS)</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Selection_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE_">Selection (CASE, IF, MULTI, OVERRIDE, EXCLUSIVE)</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Set operations</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Set_operations">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Grouping_GROUP_">Grouping (GROUP)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Partitioning_sorting_PARTITION_..._ORDER_">Partitioning / sorting (PARTITION ... ORDER)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Recursion_RECURSION_">Recursion (RECURSION)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Distribution_UNGROUP_">Distribution (UNGROUP)</a></li></ul></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Actions</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Actions">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Change_sessions">Change sessions</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Оperators</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Оperators">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Execution order</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Execution_order">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Sequence_..._">Sequence ({...})</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Call_EXEC_">Call (EXEC)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Loop_FOR_">Loop (FOR)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Branching_CASE_IF_MULTI_">Branching (CASE, IF, MULTI)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Recursive_loop_WHILE_">Recursive loop (WHILE)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Interruption_BREAK_">Interruption (BREAK)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Exit_RETURN_">Exit (RETURN)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/New_threads_NEWTHREAD_NEWEXECUTOR_">New threads (NEWTHREAD, NEWEXECUTOR)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Exception_handling_TRY_">Exception handling (TRY)</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">State change</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/State_change">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Property_change_CHANGE_">Property change (CHANGE)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/New_object_NEW_">New object (NEW)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Class_change_CHANGECLASS_DELETE_">Class change (CHANGECLASS, DELETE)</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Session management</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Session_management">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Apply_changes_APPLY_">Apply changes (APPLY)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Cancel_changes_CANCEL_">Cancel changes (CANCEL)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/New_session_NEWSESSION_NESTEDSESSION_">New session (NEWSESSION, NESTEDSESSION)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Previous_value_PREV_">Previous value (PREV)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Change_operators_SET_CHANGED_..._">Change operators (SET, CHANGED, ...)</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">User/IS interaction</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/User_IS_interaction">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Show_message_MESSAGE_ASK_">Show message (MESSAGE, ASK)</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">File operators</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/File_operators">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Read_file_READ_">Read file (READ)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Write_file_WRITE_">Write file (WRITE)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Data_import_IMPORT_">Data import (IMPORT)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Data_export_EXPORT_">Data export (EXPORT)</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Send_mail_EMAIL_">Send mail (EMAIL)</a></li></ul></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Events</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Events">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Simple_event">Simple event</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Calculated_events">Calculated events</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Constraints</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Constraints">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Simple_constraints">Simple constraints</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Classes</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Classes">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Built-in_classes">Built-in classes</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Static_objects">Static objects</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/User_classes">User classes</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Aggregations">Aggregations</a></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">View logic</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/View_logic">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Forms</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Forms">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Form structure</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Form_structure">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Groups_of_properties_and_actions">Groups of properties and actions</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Form views</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Form_views">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Interactive view</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Interactive_view">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Form_design">Form design</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Form_events">Form events</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Form operators</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Form_operators">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Value input</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Value_input">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Primitive_input_INPUT_">Primitive input (INPUT)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Value_request_REQUEST_">Value request (REQUEST)</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Object group operations</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Object_group_operations">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Search_SEEK_">Search (SEEK)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Filter_FILTER_">Filter (FILTER)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Order_ORDER_">Order (ORDER)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/View_VIEW_">View (VIEW)</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Focus operations</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Focus_operations">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Activation_ACTIVATE_">Activation (ACTIVATE)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Activity_ACTIVE_">Activity (ACTIVE)</a></li></ul></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Static view</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Static_view">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Print view</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Print_view">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Report_design">Report design</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Structured_view">Structured view</a></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Open form</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Open_form">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/In_an_interactive_view_SHOW_DIALOG_">In an interactive view (SHOW, DIALOG)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/In_a_print_view_PRINT_">In a print view (PRINT)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/In_a_structured_view_EXPORT_IMPORT_">In a structured view (EXPORT, IMPORT)</a></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Navigator</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Navigator">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Navigator_design">Navigator design</a></li></ul></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Physical model</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Physical_model">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Development</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Development">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Element identification</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Element_identification">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Naming">Naming</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Search">Search</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Modularity</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Modularity">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Modules">Modules</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Projects">Projects</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Extensions</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Extensions">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Class_extension">Class extension</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Property_extension">Property extension</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Action_extension">Action extension</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Form_extension">Form extension</a></li></ul></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Metaprogramming">Metaprogramming</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Integration</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Integration">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Access_from_an_external_system">Access from an external system</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Access_from_an_internal_system">Access from an internal system</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Access_to_an_external_system_EXTERNAL_">Access to an external system (EXTERNAL)</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Access to an internal system (INTERNAL, FORMULA)</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Access_to_an_internal_system_INTERNAL_FORMULA_">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Internal_call_INTERNAL_">Internal call (INTERNAL)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Custom_formula_FORMULA_">Custom formula (FORMULA)</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Eval_EVAL_">Eval (EVAL)</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Migration">Migration</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Internationalization">Internationalization</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Execution</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Execution">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Materializations">Materializations</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Indexes">Indexes</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Tables">Tables</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Management</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Management">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">System parameters</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/System_parameters">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Launch parameters</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Launch_parameters">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Launch_events">Launch events</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Working_parameters">Working parameters</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/User_interface">User interface</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Interpreter">Interpreter</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Security_policy">Security policy</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Process_monitor">Process monitor</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Scheduler">Scheduler</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Journals_and_logs">Journals and logs</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Profiler">Profiler</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Chat">Chat</a></li></ul></li></ul></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!" tabindex="0">Language</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Language">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Tokens">Tokens</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/IDs">IDs</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Literals">Literals</a></li><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!" tabindex="0">Instructions</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Instructions">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Module_header">Module header</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="0">Instruction =</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Instruction_=">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Expression</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Expression">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Operator_priority">Operator priority</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">Property operators</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Property_operators">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Arithmetic_operators">Arithmetic operators</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Operator_">Operator \[\]</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/ABSTRACT_operator">ABSTRACT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/ACTIVE_TAB_operator">ACTIVE TAB operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/AGGR_operator">AGGR operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/CASE_operator">CASE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/CLASS_operator">CLASS operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/CONCAT_operator">CONCAT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/DATA_operator">DATA operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/EXCLUSIVE_operator">EXCLUSIVE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/FORMULA_operator">FORMULA operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/GROUP_operator">GROUP operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/IF_operator">IF operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/IF_..._THEN_operator">IF ... THEN operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/JOIN_operator">JOIN operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/MAX_operator">MAX operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/MIN_operator">MIN operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/MULTI_operator">MULTI operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/OVERRIDE_operator">OVERRIDE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/PARTITION_operator">PARTITION operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/PREV_operator">PREV operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/RECURSION_operator">RECURSION operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/STRUCT_operator">STRUCT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/UNGROUP_operator">UNGROUP operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Object_group_operator">Object group operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Type_conversion_operator">Type conversion operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/AND_OR_NOT_XOR_operators">AND, OR, NOT, XOR operators</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/IS_AS_operators">IS, AS operators</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Change_operators">Change operators</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Comparison_operators">Comparison operators</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Property_options">Property options</a></li></ul></li><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!" tabindex="0">ACTION instruction</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/ACTION_instruction">Overview</a></li><li class="menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#!" tabindex="0">Action operator</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Action_operator">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Operator_..._">Operator{...}</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/ABSTRACT_operator_action_">ABSTRACT operator (action)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/ACTIVATE_operator">ACTIVATE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/ACTIVE_FORM_operator">ACTIVE FORM operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/APPLY_operator">APPLY operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/ASK_operator">ASK operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/CHANGE_operator">CHANGE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/BREAK_operator">BREAK operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/CANCEL_operator">CANCEL operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/CASE_operator_action_">CASE operator (action)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/CHANGECLASS_operator">CHANGECLASS operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/INTERNAL_operator">INTERNAL operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/DELETE_operator">DELETE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/DIALOG_operator">DIALOG operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EMAIL_operator">EMAIL operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EVAL_operator">EVAL operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EXEC_operator">EXEC operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EXPORT_operator">EXPORT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EXTERNAL_operator">EXTERNAL operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/FOR_operator">FOR operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/IF_..._THEN_operator_action_">IF ... THEN operator (action)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/IMPORT_operator">IMPORT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/INPUT_operator">INPUT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/MESSAGE_operator">MESSAGE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/MULTI_operator_action_">MULTI operator (action)</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/NEW_operator">NEW operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/NESTEDSESSION_operator">NESTEDSESSION operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/NEWEXECUTOR_operator">NEWEXECUTOR operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/NEWSESSION_operator">NEWSESSION operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/NEWTHREAD_operator">NEWTHREAD operator</a></li><li class="menu__list-item"><a aria-current="page" class="menu__link menu__link--active active" tabindex="0" href="/platform/docs/PRINT_operator">PRINT operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/READ_operator">READ operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/REQUEST_operator">REQUEST operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/RETURN">RETURN</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/SEEK_operator">SEEK operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/SHOW_operator">SHOW operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/TRY_operator">TRY operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/WHILE_operator">WHILE operator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/WRITE_operator">WRITE operator</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Action_options">Action options</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/GROUP_instruction">GROUP instruction</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="0">ON instruction</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/ON_instruction">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Event_description_block">Event description block</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/WHEN_instruction">WHEN instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Instruction_-_WHEN">Instruction&lt;- WHEN</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/CONSTRAINT_instruction">CONSTRAINT instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Instruction=_">Instruction=&gt;</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/CLASS_instruction">CLASS instruction</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="0">FORM instruction</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/FORM_instruction">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Object_blocks">Object blocks</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Properties_and_actions_block">Properties and actions block</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Filters_and_sortings_block">Filters and sortings block</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Event_block">Event block</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/DESIGN_instruction">DESIGN instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/NAVIGATOR_instruction">NAVIGATOR instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/WINDOW_instruction">WINDOW instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EXTEND_CLASS_instruction">EXTEND CLASS instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/EXTEND_FORM_instruction">EXTEND FORM instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Instruction_+=">Instruction +=</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/ACTION+_instruction">ACTION+ instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/META_instruction">META instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Instruction_">Instruction@</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/TABLE_instruction">TABLE instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/INDEX_instruction">INDEX instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/BEFORE_instruction">BEFORE instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/AFTER_instruction">AFTER instruction</a></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Empty_instruction">Empty instruction</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Coding_conventions">Coding conventions</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/IDE">IDE</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="0">Examples</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Examples">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Score_table">Score table</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/Materials_management">Materials management</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Computations</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Computations">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_GROUP_SUM">How-to: GROUP SUM</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_GROUP_MAX_MIN_AGGR">How-to: GROUP MAX/MIN/AGGR</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_CASE_IF_OVERRIDE">How-to: CASE/IF/OVERRIDE</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_GROUP_LAST">How-to: GROUP LAST</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_GROUP_CONCAT">How-to: GROUP CONCAT</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_PARTITION">How-to: PARTITION</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: GUI</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_GUI">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Interactive forms</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Interactive_forms">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_CRUD">How-to: CRUD</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Documents_with_lines">How-to: Documents with lines</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Filtering_and_ordering">How-to: Filtering and ordering</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Design">How-to: Design</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Trees">How-to: Trees</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Data_entry">How-to: Data entry</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Navigator">How-to: Navigator</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Matrix">How-to: Matrix</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Table_status">How-to: Table status</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Reports">How-to: Reports</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Imperative logic</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Imperative_logic">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Actions</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Actions">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_CHANGE">How-to: CHANGE</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_EXEC">How-to: EXEC</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_NEW">How-to: NEW</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_DELETE">How-to: DELETE</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_FOR">How-to: FOR</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_IF_CASE">How-to: IF/CASE</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_WHILE">How-to: WHILE</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_NEWSESSION">How-to: NEWSESSION</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_SEEK">How-to: SEEK</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Events">How-to: Events</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Declarative logic</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Declarative_logic">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Constraints">How-to: Constraints</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Inheritance_and_aggregation">How-to: Inheritance and aggregation</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Searching for elements</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Searching_for_elements">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Namespaces">How-to: Namespaces</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Explicit_typing">How-to: Explicit typing</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Extensions</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Extensions">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Class_extension">How-to: Class extension</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Property_extension">How-to: Property extension</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Action_extension">How-to: Action extension</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Form_extension">How-to: Form extension</a></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Integration</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Integration">Overview</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Working with external formats</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Working_with_external_formats">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Data_export">How-to: Data export</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Data_import">How-to: Data import</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Interaction_via_HTTP_protocol">How-to: Interaction via HTTP protocol</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Frontend">How-to: Frontend</a></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Access to internal systems</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Access_to_internal_systems">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_FORMULA">How-to: FORMULA</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_INTERNAL">How-to: INTERNAL</a></li></ul></li></ul></li><li class="menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#!" tabindex="-1">How-to: Use Cases</a><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Use_Cases">Overview</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Working_with_documents">How-to: Working with documents</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Registers">How-to: Registers</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Numbering">How-to: Numbering</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Using_objects_as_templates">How-to: Using objects as templates</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Overriding_values">How-to: Overriding values</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Binding_properties">How-to: Binding properties</a></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Metaprogramming">How-to: Metaprogramming</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Physical_model">How-to: Physical model</a></li><li class="menu__list-item"><a class="menu__link" tabindex="-1" href="/platform/docs/How-to_Internationalization">How-to: Internationalization</a></li></ul></li></ul></li><li class="menu__list-item"><a class="menu__link" tabindex="0" href="/platform/docs/Online_demo">Online demo</a></li></ul></li></ul></div></div></div><main class="docMainContainer_3ufF"><div class="container padding-vert--lg docItemWrapper_3FMP"><div class="row"><div class="col docItemCol_3FnS"><div class="docItemContainer_33ec"><article><div><span class="badge badge--secondary">Version: 1.0.0</span></div><header><h1 class="docTitle_3a4h">PRINT operator</h1></header><div class="markdown"><p>The <strong>PRINT</strong> operator creates an <a href="/platform/docs/Actions">action</a> that <a href="/platform/docs/In_a_print_view_PRINT_">opens a form</a> in print view. </p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="syntax"></a>Syntax<a class="hash-link" href="#syntax" title="Direct link to heading">#</a></h3><div class="codeBlockContainer_K1bP"><div class="codeBlockContent_hGly"><div tabindex="0" class="prism-code language-undefined codeBlock_23N8 thin-scrollbar"><div class="codeBlockLines_39YC" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">PRINT name </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">[OBJECTS objName1 = expr1, ..., objNameN = exprN]</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">[formActionOptions] </span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o">Copy</button></div></div><p><em>formActionOptions</em> - additional options for this action. There are several possible option syntaxes in this operator:</p><div class="codeBlockContainer_K1bP"><div class="codeBlockContent_hGly"><div tabindex="0" class="prism-code language-undefined codeBlock_23N8 thin-scrollbar"><div class="codeBlockLines_39YC" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">printFormat [SHEET sheetProperty] [PASSWORD passwordExpr] [TO propertyId]</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">[PREVIEW | NOPREVIEW] [syncType] [TO printerExpr]</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">MESSAGE [syncType] [TOP n]</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o">Copy</button></div></div><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="description"></a>Description<a class="hash-link" href="#description" title="Direct link to heading">#</a></h3><p>The <strong>PRINT</strong> operator creates an action that prints the specified form. When printing a form in the <strong>OBJECTS</strong> block you can add <a href="/platform/docs/Open_form#params">additional filters</a> for form objects to check these objects for equality to the values passed.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="parameters"></a>Parameters<a class="hash-link" href="#parameters" title="Direct link to heading">#</a></h3><p><em>name</em></p><p>Form name. <a href="/platform/docs/IDs#cid-broken">Composite ID</a>.</p><p><em>objName1 ... objNameN</em></p><p>Names of form objects for which additional filters are specified. <a href="/platform/docs/IDs#id-broken">Simple IDs</a>.</p><p><em>expr1 ... exprN</em></p><p><a href="/platform/docs/Expression">Expressions</a> whose values determine the filtered (fixed) values for form objects.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="additional-options"></a><em>Additional options</em><a class="hash-link" href="#additional-options" title="Direct link to heading">#</a></h3><p><em>printFormat</em></p><p>The <a href="/platform/docs/In_a_print_view_PRINT_#format">print format</a> is specified by one of these keywords:</p><ul><li><strong>PDF</strong> – the form will be exported to a PDF file.</li><li><strong>XLS</strong>, <strong>XLSX</strong> – the form will be exported to a file in one of the specified EXCEL formats.</li><li><strong>DOC</strong>, <strong>DOCX</strong> – the form will be exported to a file in one of the specified WORD formats.</li><li><strong>RTF</strong> – the form will be exported to an RTF file.</li><li><strong>HTML</strong> – the form will be exported to an HTML file.</li></ul><div class="codeBlockContainer_K1bP"><div class="codeBlockContent_hGly"><div tabindex="0" class="prism-code language-undefined codeBlock_23N8 thin-scrollbar"><div class="codeBlockLines_39YC" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">sheetProperty</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o">Copy</button></div></div><p>The <a href="/platform/docs/IDs#propertyid-broken">ID of the property</a> whose value is used as the name of the sheet in the exported file. The property must not have parameters. It is used for <strong>XLS</strong> and <strong>XLSX</strong> print formats.</p><p><em>passwordExpr</em></p><p>An expression whose value determines the password that sets the read-only mode for the exported file. Used for <strong>XLS</strong> and <strong>XLSX</strong> print formats.</p><p><em>propertyId</em></p><p><a href="/platform/docs/IDs#propertyid-broken">Property ID</a> to which the generated file will be written. The property must not have parameters. If a property is not specified, the generated file is sent to the client and opened by the operating system</p><p><em>PREVIEW</em></p><p>Keyword. If specified, the form is displayed in <a href="/platform/docs/In_a_print_view_PRINT_#interactive">preview</a> mode. This mode is used by default if no other modes/formats are specified.</p><p><em>NOPREVIEW</em></p><p>Keyword. If specified, the form is immediately (without preview) sent for printing.</p><p><em>printerExpr</em></p><p>An expression whose value determines the name of the printer to which the print job will be sent. If no printer with the specified name is found (or specified), the default printer is selected.</p><p><em>MESSAGE</em></p><p>Keyword. If specified, the form displays data to the user in <a href="/platform/docs/In_a_print_view_PRINT_#interactive">message</a> mode.</p><p><em>TOP n</em></p><p>Displays only the first N entries. <a href="/platform/docs/Literals#intliteral-broken">Integer literal</a>.</p><p><em>syncType</em></p><p>Determines when the created action should be continued:</p><ul><li><strong>WAIT</strong> - after the client completes the action (closes the preview/message form). Used by default.</li><li><strong>NOWAIT</strong> - after preparation of the information for sending to the client (form data is read).</li></ul><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_2LWZ" id="examples"></a>Examples<a class="hash-link" href="#examples" title="Direct link to heading">#</a></h3><div class="codeBlockContainer_K1bP"><div class="codeBlockContent_hGly lsf"><div tabindex="0" class="prism-code language-lsf codeBlock_23N8 thin-scrollbar"><div class="codeBlockLines_39YC" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">loading...</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o">Copy</button></div></div></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/danchanka/platform/edit/master/versioned_docs/version-1.0.0/PRINT_operator.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" role="img" viewBox="0 0 40 40" class="iconEdit_2_ui" aria-label="Edit page"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/platform/docs/NEWTHREAD_operator"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« NEWTHREAD operator</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/platform/docs/READ_operator"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">READ operator »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#syntax" class="table-of-contents__link">Syntax</a></li><li><a href="#description" class="table-of-contents__link">Description</a></li><li><a href="#parameters" class="table-of-contents__link">Parameters</a></li><li><a href="#additional-options" class="table-of-contents__link"><em>Additional options</em></a></li><li><a href="#examples" class="table-of-contents__link">Examples</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/platform/docs/Learn">lsf docs</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://ru.stackoverflow.com/questions/tagged/lsfusion" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow</a></li><li class="footer__item"><a href="https://slack.lsfusion.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Slack</a></li><li class="footer__item"><a href="https://twitter.com/lsfusion" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/platform/blog">Blog</a></li><li class="footer__item"><a href="https://habr.com/ru/company/lsfusion/blog/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Habr</a></li><li class="footer__item"><a href="https://github.com/lsfusion/platform" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2021 lsFusion Foundation. Built with Docusaurus.</div></div></div></footer></div>
-<script src="/platform/assets/js/styles.5e502ecf.js"></script>
-<script src="/platform/assets/js/runtime~main.f64242b3.js"></script>
-<script src="/platform/assets/js/main.bfe79efc.js"></script>
-<script src="/platform/assets/js/1.5e2a8f31.js"></script>
-<script src="/platform/assets/js/2.4ab8d2b3.js"></script>
-<script src="/platform/assets/js/677.4d06041c.js"></script>
-<script src="/platform/assets/js/679.7b5b2597.js"></script>
-<script src="/platform/assets/js/62e81aa6.8c6c695e.js"></script>
-<script src="/platform/assets/js/676.6221f9f0.js"></script>
-<script src="/platform/assets/js/fea0a320.173dabe5.js"></script>
-<script src="/platform/assets/js/02cf41b2.403b8f4f.js"></script>
-<script src="/platform/assets/js/055d38ed.3c862c7d.js"></script>
-<script src="/platform/assets/js/057cd900.ce99e715.js"></script>
-<script src="/platform/assets/js/05e7d225.8457ffc2.js"></script>
-<script src="/platform/assets/js/0728ed1a.6446c0e4.js"></script>
-<script src="/platform/assets/js/091072e1.d254c5f4.js"></script>
-<script src="/platform/assets/js/0ac54d06.5a49d6e6.js"></script>
-<script src="/platform/assets/js/0b9143cd.c422e744.js"></script>
-<script src="/platform/assets/js/0d1f9d75.bfb664d1.js"></script>
-<script src="/platform/assets/js/0d95c3a4.0871a326.js"></script>
-<script src="/platform/assets/js/1129f13c.41680a3c.js"></script>
-<script src="/platform/assets/js/1303c5fa.f9756b9d.js"></script>
-<script src="/platform/assets/js/149aa36e.de128a5a.js"></script>
-<script src="/platform/assets/js/178f6f28.f5e9c427.js"></script>
-<script src="/platform/assets/js/1d6b11ea.cde203a0.js"></script>
-<script src="/platform/assets/js/1e2d6c37.e7b70360.js"></script>
-<script src="/platform/assets/js/1e37c77c.0f504516.js"></script>
-<script src="/platform/assets/js/1ea5ad1d.284a5013.js"></script>
-<script src="/platform/assets/js/20583e18.bc5975a2.js"></script>
-<script src="/platform/assets/js/212598ea.4670525d.js"></script>
-<script src="/platform/assets/js/22e67eba.cab921cb.js"></script>
-<script src="/platform/assets/js/234b790f.45db8a5c.js"></script>
-<script src="/platform/assets/js/23e5fdf9.8a0b6969.js"></script>
-<script src="/platform/assets/js/23fe1d3f.d5fd6a6d.js"></script>
-<script src="/platform/assets/js/24f05361.d6b4cb52.js"></script>
-<script src="/platform/assets/js/254dfa13.a74353b5.js"></script>
-<script src="/platform/assets/js/276449da.ebf4cf62.js"></script>
-<script src="/platform/assets/js/2b1e5246.1e747d9a.js"></script>
-<script src="/platform/assets/js/2bf77748.2b50ee10.js"></script>
-<script src="/platform/assets/js/2c3ab3f1.d09143f9.js"></script>
-<script src="/platform/assets/js/2d670c1e.897e6a8a.js"></script>
-<script src="/platform/assets/js/2d789436.979f8293.js"></script>
-<script src="/platform/assets/js/2e35da3d.fae487ae.js"></script>
-<script src="/platform/assets/js/2e4a56fb.d441453c.js"></script>
-<script src="/platform/assets/js/3005dd4d.d2c41dd3.js"></script>
-<script src="/platform/assets/js/300858d3.a6eb9809.js"></script>
-<script src="/platform/assets/js/315a282e.9a9fabcd.js"></script>
-<script src="/platform/assets/js/32608d56.6bc10294.js"></script>
-<script src="/platform/assets/js/338a7362.1b4fe1c2.js"></script>
-<script src="/platform/assets/js/36c1c68f.f6ef8102.js"></script>
-<script src="/platform/assets/js/372b3a0e.db90bc95.js"></script>
-<script src="/platform/assets/js/37e02efb.f2e025dd.js"></script>
-<script src="/platform/assets/js/3887e2d0.394e0cfc.js"></script>
-<script src="/platform/assets/js/38933207.59bdc11e.js"></script>
-<script src="/platform/assets/js/38b7e0ea.00799bb5.js"></script>
-<script src="/platform/assets/js/3a256174.95761263.js"></script>
-<script src="/platform/assets/js/3aaa6d23.37fa0683.js"></script>
-<script src="/platform/assets/js/3b51d987.5069c927.js"></script>
-<script src="/platform/assets/js/3c6cf903.06626932.js"></script>
-<script src="/platform/assets/js/3cb7ceb2.3ffacef7.js"></script>
-<script src="/platform/assets/js/3d2e0989.ec191850.js"></script>
-<script src="/platform/assets/js/3e8fe86b.1f88abe8.js"></script>
-<script src="/platform/assets/js/3e9d3fcc.84e0a183.js"></script>
-<script src="/platform/assets/js/3f76992b.468da915.js"></script>
-<script src="/platform/assets/js/3fe45d8f.ee4cd7b3.js"></script>
-<script src="/platform/assets/js/4159ccfd.27e8dcc6.js"></script>
-<script src="/platform/assets/js/433462d4.50f23f45.js"></script>
-<script src="/platform/assets/js/436b3c34.39f5b85c.js"></script>
-<script src="/platform/assets/js/4490beec.5f7ad9b0.js"></script>
-<script src="/platform/assets/js/46345b46.3162e68b.js"></script>
-<script src="/platform/assets/js/46a5267e.d211ee70.js"></script>
-<script src="/platform/assets/js/47b1f664.6b3cc04c.js"></script>
-<script src="/platform/assets/js/4851ff92.05e89394.js"></script>
-<script src="/platform/assets/js/49a166ed.c955a434.js"></script>
-<script src="/platform/assets/js/49ff04f0.ff9e1500.js"></script>
-<script src="/platform/assets/js/4a03985f.5ef46aa9.js"></script>
-<script src="/platform/assets/js/4ba65895.95520767.js"></script>
-<script src="/platform/assets/js/4bc11c0c.9dcd7449.js"></script>
-<script src="/platform/assets/js/4bc43e0f.87ed2761.js"></script>
-<script src="/platform/assets/js/4c7fc8a5.18488fb7.js"></script>
-<script src="/platform/assets/js/4ca17b87.2d7eb7d1.js"></script>
-<script src="/platform/assets/js/4e0e936c.68f61977.js"></script>
-<script src="/platform/assets/js/4fb00782.1b0716b5.js"></script>
-<script src="/platform/assets/js/5000fe7b.5acb3894.js"></script>
-<script src="/platform/assets/js/507401d0.825d0bdf.js"></script>
-<script src="/platform/assets/js/512e3827.696f18d8.js"></script>
-<script src="/platform/assets/js/51b2abaf.a199a429.js"></script>
-<script src="/platform/assets/js/51be3a62.65dd684f.js"></script>
-<script src="/platform/assets/js/52b9a572.cfdb9550.js"></script>
-<script src="/platform/assets/js/5445ea56.97e1667d.js"></script>
-<script src="/platform/assets/js/56832053.a274d018.js"></script>
-<script src="/platform/assets/js/59c77126.d78d92f8.js"></script>
-<script src="/platform/assets/js/5a8d065f.b338a7d4.js"></script>
-<script src="/platform/assets/js/5b8e108a.b4c60c1f.js"></script>
-<script src="/platform/assets/js/5bf6da99.977aa48c.js"></script>
-<script src="/platform/assets/js/5c9ee379.87ab1df5.js"></script>
-<script src="/platform/assets/js/5ee37c7c.5892e1c6.js"></script>
-<script src="/platform/assets/js/6099d816.907f53a8.js"></script>
-<script src="/platform/assets/js/60ceefa1.16eb8fc7.js"></script>
-<script src="/platform/assets/js/635042b6.76fd1e76.js"></script>
-<script src="/platform/assets/js/64465e86.a90141c9.js"></script>
-<script src="/platform/assets/js/64c7e09a.06f326f2.js"></script>
-<script src="/platform/assets/js/656a04d0.36d1f792.js"></script>
-<script src="/platform/assets/js/65f8ead2.566157fc.js"></script>
-<script src="/platform/assets/js/66f29aff.3a462ad6.js"></script>
-<script src="/platform/assets/js/694ba81d.77bc99a7.js"></script>
-<script src="/platform/assets/js/6c215858.bffff1b0.js"></script>
-<script src="/platform/assets/js/6cfa853b.1191911f.js"></script>
-<script src="/platform/assets/js/6d7e64b1.6f7a8a72.js"></script>
-<script src="/platform/assets/js/6dc164ef.58af2429.js"></script>
-<script src="/platform/assets/js/6e070440.8a43e810.js"></script>
-<script src="/platform/assets/js/6e922910.419d070b.js"></script>
-<script src="/platform/assets/js/6f314626.9f54403c.js"></script>
-<script src="/platform/assets/js/70122da2.af41a374.js"></script>
-<script src="/platform/assets/js/7142c3ba.41a0171b.js"></script>
-<script src="/platform/assets/js/724ce59b.9fc78608.js"></script>
-<script src="/platform/assets/js/72d9ef35.e31f7990.js"></script>
-<script src="/platform/assets/js/7308f160.0927de23.js"></script>
-<script src="/platform/assets/js/75f1b29a.071ee5ce.js"></script>
-<script src="/platform/assets/js/792bd774.088be69e.js"></script>
-<script src="/platform/assets/js/7b6926f9.ecb6a88c.js"></script>
-<script src="/platform/assets/js/7bf8754e.4810f27d.js"></script>
-<script src="/platform/assets/js/7cad2583.4e3ac3b1.js"></script>
-<script src="/platform/assets/js/7de49955.b63ce3cb.js"></script>
-<script src="/platform/assets/js/7e9fe388.f69bedbc.js"></script>
-<script src="/platform/assets/js/7f99f37a.5e850e79.js"></script>
-<script src="/platform/assets/js/8047f2e2.6b222ca3.js"></script>
-<script src="/platform/assets/js/832fab57.ba7b08a9.js"></script>
-<script src="/platform/assets/js/85a6b04a.7939de92.js"></script>
-<script src="/platform/assets/js/86cb5a01.420270ef.js"></script>
-<script src="/platform/assets/js/87a3d4f0.0a578a54.js"></script>
-<script src="/platform/assets/js/880918a0.27eb8927.js"></script>
-<script src="/platform/assets/js/891952a2.9bde464a.js"></script>
-<script src="/platform/assets/js/8978937d.aaebd497.js"></script>
-<script src="/platform/assets/js/89a7c761.88812699.js"></script>
-<script src="/platform/assets/js/89b9dbbd.150f6e5e.js"></script>
-<script src="/platform/assets/js/8abcb4e8.89d889d1.js"></script>
-<script src="/platform/assets/js/8abf7dfa.09d1ec6b.js"></script>
-<script src="/platform/assets/js/8b2e434d.532a11ea.js"></script>
-<script src="/platform/assets/js/8b68c33f.dbc70683.js"></script>
-<script src="/platform/assets/js/8f2b5f9d.56c8e377.js"></script>
-<script src="/platform/assets/js/8f97277f.25996f40.js"></script>
-<script src="/platform/assets/js/921d02b4.e26bd583.js"></script>
-<script src="/platform/assets/js/966ad3ba.ef12e1eb.js"></script>
-<script src="/platform/assets/js/96701661.6375c18d.js"></script>
-<script src="/platform/assets/js/979761b2.338a7215.js"></script>
-<script src="/platform/assets/js/97f223ca.87d6088c.js"></script>
-<script src="/platform/assets/js/9847492c.f5cceafe.js"></script>
-<script src="/platform/assets/js/98714c3e.cb8d5832.js"></script>
-<script src="/platform/assets/js/99c37fc9.63ad8b82.js"></script>
-<script src="/platform/assets/js/9a39e80f.157f2734.js"></script>
-<script src="/platform/assets/js/9a5f0f4d.b4c63ce4.js"></script>
-<script src="/platform/assets/js/9eaa3700.0ba3c5bd.js"></script>
-<script src="/platform/assets/js/a0c3fdc4.1d11232b.js"></script>
-<script src="/platform/assets/js/a33aa8bf.8a475281.js"></script>
-<script src="/platform/assets/js/a45eee93.7dbfd4f2.js"></script>
-<script src="/platform/assets/js/a599335a.fe672b88.js"></script>
-<script src="/platform/assets/js/aab6a015.80c883ae.js"></script>
-<script src="/platform/assets/js/aae0e801.9206ccef.js"></script>
-<script src="/platform/assets/js/ab11e061.27982848.js"></script>
-<script src="/platform/assets/js/abbda373.6d9ae1ea.js"></script>
-<script src="/platform/assets/js/abce78e2.955f7eca.js"></script>
-<script src="/platform/assets/js/abe7c977.2d959601.js"></script>
-<script src="/platform/assets/js/ac50f896.57657b78.js"></script>
-<script src="/platform/assets/js/acfc0a1e.32a34dc8.js"></script>
-<script src="/platform/assets/js/ad15dd70.a83e2d25.js"></script>
-<script src="/platform/assets/js/ae5f29c1.d118b818.js"></script>
-<script src="/platform/assets/js/afb5f907.cc78de01.js"></script>
-<script src="/platform/assets/js/b03b99b3.744090d7.js"></script>
-<script src="/platform/assets/js/b1be29a4.0d26d580.js"></script>
-<script src="/platform/assets/js/b1f3c280.04af13de.js"></script>
-<script src="/platform/assets/js/b4eb30f8.15f533ec.js"></script>
-<script src="/platform/assets/js/b750e133.7b99d172.js"></script>
-<script src="/platform/assets/js/b7586aae.b51c0000.js"></script>
-<script src="/platform/assets/js/b87c5296.de08d98a.js"></script>
-<script src="/platform/assets/js/b87c77e9.db08bfa5.js"></script>
-<script src="/platform/assets/js/ba41da55.e7813a2f.js"></script>
-<script src="/platform/assets/js/bb3952ca.daa342d3.js"></script>
-<script src="/platform/assets/js/bec381ae.9202a0f4.js"></script>
-<script src="/platform/assets/js/bf48c92f.8fbbacec.js"></script>
-<script src="/platform/assets/js/c226cfcb.90663ad9.js"></script>
-<script src="/platform/assets/js/c4272b6a.720e0f70.js"></script>
-<script src="/platform/assets/js/c4e936dc.a05c9829.js"></script>
-<script src="/platform/assets/js/c665c037.7529e399.js"></script>
-<script src="/platform/assets/js/c6d9ad80.1cb0edf0.js"></script>
-<script src="/platform/assets/js/c7aa5aef.6630d911.js"></script>
-<script src="/platform/assets/js/c7e13485.e44b5622.js"></script>
-<script src="/platform/assets/js/c8902cf2.4ed49801.js"></script>
-<script src="/platform/assets/js/c8eadaef.d2f46dc7.js"></script>
-<script src="/platform/assets/js/c93c21b0.d91e4579.js"></script>
-<script src="/platform/assets/js/ca8ce709.52e7bfb1.js"></script>
-<script src="/platform/assets/js/cb430b5c.17d8e825.js"></script>
-<script src="/platform/assets/js/cb71bf57.0a69928e.js"></script>
-<script src="/platform/assets/js/cb827d5c.52cfa703.js"></script>
-<script src="/platform/assets/js/cce28184.01e5a974.js"></script>
-<script src="/platform/assets/js/ce81ae7f.fed17067.js"></script>
-<script src="/platform/assets/js/ced44c85.c5ba5763.js"></script>
-<script src="/platform/assets/js/cf5131d2.7e2c10b6.js"></script>
-<script src="/platform/assets/js/cfb512ad.c4d5b7dc.js"></script>
-<script src="/platform/assets/js/d0784048.6bb34cd6.js"></script>
-<script src="/platform/assets/js/d0efe938.5c8d11f9.js"></script>
-<script src="/platform/assets/js/d194e558.df49385a.js"></script>
-<script src="/platform/assets/js/d1fe0c2c.d8f1e176.js"></script>
-<script src="/platform/assets/js/d232f584.e5f98fd3.js"></script>
-<script src="/platform/assets/js/d2a86b9f.e0db4c4b.js"></script>
-<script src="/platform/assets/js/d45460e1.77424e4d.js"></script>
-<script src="/platform/assets/js/d4adc898.7e692313.js"></script>
-<script src="/platform/assets/js/d74835fb.fdf567ea.js"></script>
-<script src="/platform/assets/js/d8baea4a.1850bb51.js"></script>
-<script src="/platform/assets/js/da1b8711.560345a2.js"></script>
-<script src="/platform/assets/js/da6aeb03.3bac1a1f.js"></script>
-<script src="/platform/assets/js/da7e4aa8.f6c7cc1d.js"></script>
-<script src="/platform/assets/js/dad6bec0.9c24a127.js"></script>
-<script src="/platform/assets/js/db91f390.818f179f.js"></script>
-<script src="/platform/assets/js/db92959b.a461a7b3.js"></script>
-<script src="/platform/assets/js/e062d51a.7db913db.js"></script>
-<script src="/platform/assets/js/e0878370.bd42e314.js"></script>
-<script src="/platform/assets/js/e0c02b3a.dbb1496e.js"></script>
-<script src="/platform/assets/js/e0cf2c8e.0bdeeead.js"></script>
-<script src="/platform/assets/js/e28d672e.8feb1ada.js"></script>
-<script src="/platform/assets/js/e407214d.a93a9f0d.js"></script>
-<script src="/platform/assets/js/e43fbe80.80281a82.js"></script>
-<script src="/platform/assets/js/e4b45c9c.cae61d45.js"></script>
-<script src="/platform/assets/js/e7d8d16f.3374bb3e.js"></script>
-<script src="/platform/assets/js/e97db18e.5ab4359c.js"></script>
-<script src="/platform/assets/js/e98a046a.dfcc533d.js"></script>
-<script src="/platform/assets/js/ecf82f20.86092526.js"></script>
-<script src="/platform/assets/js/edb9f714.5fa0d919.js"></script>
-<script src="/platform/assets/js/edce5b10.43b47c73.js"></script>
-<script src="/platform/assets/js/ee5a4541.1552d334.js"></script>
-<script src="/platform/assets/js/ee6d90eb.0242ff2d.js"></script>
-<script src="/platform/assets/js/eeb030b0.10d7ddbb.js"></script>
-<script src="/platform/assets/js/eeb8226e.6430281e.js"></script>
-<script src="/platform/assets/js/eef11a92.9b25c51b.js"></script>
-<script src="/platform/assets/js/f02a6661.9d28d344.js"></script>
-<script src="/platform/assets/js/f71812da.7b16e4d2.js"></script>
-<script src="/platform/assets/js/f7273328.e79896b8.js"></script>
-<script src="/platform/assets/js/f9fad281.28a89caf.js"></script>
-<script src="/platform/assets/js/fa7bca0e.ff1b09f5.js"></script>
-<script src="/platform/assets/js/fc4cde34.877eea1f.js"></script>
-<script src="/platform/assets/js/fc9c40ca.2769bb16.js"></script>
-<script src="/platform/assets/js/fd629b38.c9bdd262.js"></script>
-<script src="/platform/assets/js/fe09dcc3.1a4e9542.js"></script>
+<script src="/platform/assets/js/styles.bde69f69.js"></script>
+<script src="/platform/assets/js/runtime~main.7007f35c.js"></script>
+<script src="/platform/assets/js/main.a4e9f1c0.js"></script>
+<script src="/platform/assets/js/1.9908c2ac.js"></script>
+<script src="/platform/assets/js/2.a97b3687.js"></script>
+<script src="/platform/assets/js/3.7ce4d1a5.js"></script>
+<script src="/platform/assets/js/1be78505.84ef844f.js"></script>
+<script src="/platform/assets/js/679.dcf5dbdc.js"></script>
+<script src="/platform/assets/js/62e81aa6.ca6e1e2c.js"></script>
+<script src="/platform/assets/js/17896441.9187a611.js"></script>
+<script src="/platform/assets/js/fea0a320.05a27cd7.js"></script>
+<script src="/platform/assets/js/02cf41b2.2300afc4.js"></script>
+<script src="/platform/assets/js/055d38ed.f546895b.js"></script>
+<script src="/platform/assets/js/057cd900.84964493.js"></script>
+<script src="/platform/assets/js/05e7d225.841b68f7.js"></script>
+<script src="/platform/assets/js/0728ed1a.bd1e62f6.js"></script>
+<script src="/platform/assets/js/091072e1.b7b26c73.js"></script>
+<script src="/platform/assets/js/0ac54d06.7b0058aa.js"></script>
+<script src="/platform/assets/js/0b9143cd.f9f9d435.js"></script>
+<script src="/platform/assets/js/0d1f9d75.b6794090.js"></script>
+<script src="/platform/assets/js/0d95c3a4.18693c14.js"></script>
+<script src="/platform/assets/js/1129f13c.dee4ab73.js"></script>
+<script src="/platform/assets/js/1303c5fa.61d821a4.js"></script>
+<script src="/platform/assets/js/149aa36e.03d1faf1.js"></script>
+<script src="/platform/assets/js/178f6f28.733a2648.js"></script>
+<script src="/platform/assets/js/1d6b11ea.a839f125.js"></script>
+<script src="/platform/assets/js/1e2d6c37.ab82dab8.js"></script>
+<script src="/platform/assets/js/1e37c77c.e6ca881f.js"></script>
+<script src="/platform/assets/js/1ea5ad1d.3febe492.js"></script>
+<script src="/platform/assets/js/20583e18.f9a3002d.js"></script>
+<script src="/platform/assets/js/212598ea.a0a2c059.js"></script>
+<script src="/platform/assets/js/22e67eba.a6552358.js"></script>
+<script src="/platform/assets/js/234b790f.6fa5f4ea.js"></script>
+<script src="/platform/assets/js/23e5fdf9.e4ab648f.js"></script>
+<script src="/platform/assets/js/23fe1d3f.79365183.js"></script>
+<script src="/platform/assets/js/24f05361.3fc0acef.js"></script>
+<script src="/platform/assets/js/254dfa13.57b54b9b.js"></script>
+<script src="/platform/assets/js/276449da.e22ff16c.js"></script>
+<script src="/platform/assets/js/2b1e5246.6809fcd4.js"></script>
+<script src="/platform/assets/js/2bf77748.8eed5ed4.js"></script>
+<script src="/platform/assets/js/2c3ab3f1.47155b65.js"></script>
+<script src="/platform/assets/js/2d670c1e.772666bd.js"></script>
+<script src="/platform/assets/js/2d789436.a506a1bc.js"></script>
+<script src="/platform/assets/js/2e35da3d.d8bdde76.js"></script>
+<script src="/platform/assets/js/2e4a56fb.926f793f.js"></script>
+<script src="/platform/assets/js/3005dd4d.a4a6f217.js"></script>
+<script src="/platform/assets/js/300858d3.727073c0.js"></script>
+<script src="/platform/assets/js/315a282e.cff0c73b.js"></script>
+<script src="/platform/assets/js/32608d56.bf9dc26e.js"></script>
+<script src="/platform/assets/js/338a7362.f708f395.js"></script>
+<script src="/platform/assets/js/36c1c68f.8e648a58.js"></script>
+<script src="/platform/assets/js/372b3a0e.d7ac4218.js"></script>
+<script src="/platform/assets/js/37e02efb.6d00aa73.js"></script>
+<script src="/platform/assets/js/3887e2d0.6b73782a.js"></script>
+<script src="/platform/assets/js/38933207.26ac41e6.js"></script>
+<script src="/platform/assets/js/38b7e0ea.24063eb3.js"></script>
+<script src="/platform/assets/js/3a256174.5db1bbb8.js"></script>
+<script src="/platform/assets/js/3aaa6d23.e5b447a7.js"></script>
+<script src="/platform/assets/js/3b51d987.34edf10d.js"></script>
+<script src="/platform/assets/js/3c6cf903.acbdba2a.js"></script>
+<script src="/platform/assets/js/3cb7ceb2.01a711b7.js"></script>
+<script src="/platform/assets/js/3d2e0989.9429947b.js"></script>
+<script src="/platform/assets/js/3e8fe86b.8499d235.js"></script>
+<script src="/platform/assets/js/3e9d3fcc.6b6f4fa9.js"></script>
+<script src="/platform/assets/js/3f76992b.46e9af87.js"></script>
+<script src="/platform/assets/js/3fe45d8f.6840654f.js"></script>
+<script src="/platform/assets/js/4159ccfd.28c499d1.js"></script>
+<script src="/platform/assets/js/433462d4.fcac4804.js"></script>
+<script src="/platform/assets/js/436b3c34.306bf445.js"></script>
+<script src="/platform/assets/js/4490beec.72cd9a69.js"></script>
+<script src="/platform/assets/js/46345b46.0e915bdf.js"></script>
+<script src="/platform/assets/js/46a5267e.4617ff0b.js"></script>
+<script src="/platform/assets/js/47b1f664.9c14d602.js"></script>
+<script src="/platform/assets/js/4851ff92.295f44b5.js"></script>
+<script src="/platform/assets/js/49a166ed.42e43e37.js"></script>
+<script src="/platform/assets/js/49ff04f0.bacb43de.js"></script>
+<script src="/platform/assets/js/4a03985f.480431f8.js"></script>
+<script src="/platform/assets/js/4ba65895.ed41be29.js"></script>
+<script src="/platform/assets/js/4bc11c0c.66462cbb.js"></script>
+<script src="/platform/assets/js/4bc43e0f.d3a8f451.js"></script>
+<script src="/platform/assets/js/4c7fc8a5.e5f5b1aa.js"></script>
+<script src="/platform/assets/js/4ca17b87.9dc1bd28.js"></script>
+<script src="/platform/assets/js/4e0e936c.d5a42896.js"></script>
+<script src="/platform/assets/js/4fb00782.18c4b772.js"></script>
+<script src="/platform/assets/js/5000fe7b.f6ec63d5.js"></script>
+<script src="/platform/assets/js/507401d0.984a7ef5.js"></script>
+<script src="/platform/assets/js/512e3827.3a6442b0.js"></script>
+<script src="/platform/assets/js/51b2abaf.c299b43b.js"></script>
+<script src="/platform/assets/js/51be3a62.4a8f7bb0.js"></script>
+<script src="/platform/assets/js/52b9a572.9c3cd06a.js"></script>
+<script src="/platform/assets/js/5445ea56.2cf80f52.js"></script>
+<script src="/platform/assets/js/56832053.a93b2d74.js"></script>
+<script src="/platform/assets/js/59c77126.cbc07e5f.js"></script>
+<script src="/platform/assets/js/5a8d065f.56befe0f.js"></script>
+<script src="/platform/assets/js/5b8e108a.a9fd689b.js"></script>
+<script src="/platform/assets/js/5bf6da99.7fdd7af5.js"></script>
+<script src="/platform/assets/js/5c9ee379.e9f75cd2.js"></script>
+<script src="/platform/assets/js/5ee37c7c.126afa68.js"></script>
+<script src="/platform/assets/js/6099d816.b4238d50.js"></script>
+<script src="/platform/assets/js/60ceefa1.c9261fd3.js"></script>
+<script src="/platform/assets/js/635042b6.98468f95.js"></script>
+<script src="/platform/assets/js/64465e86.ec82eb92.js"></script>
+<script src="/platform/assets/js/64c7e09a.298b99c0.js"></script>
+<script src="/platform/assets/js/656a04d0.24bf2156.js"></script>
+<script src="/platform/assets/js/65f8ead2.7cb1e148.js"></script>
+<script src="/platform/assets/js/66f29aff.af2a7573.js"></script>
+<script src="/platform/assets/js/694ba81d.d9922a31.js"></script>
+<script src="/platform/assets/js/6c215858.9a62a310.js"></script>
+<script src="/platform/assets/js/6cfa853b.191485e6.js"></script>
+<script src="/platform/assets/js/6d7e64b1.fbc47045.js"></script>
+<script src="/platform/assets/js/6dc164ef.eeb70c96.js"></script>
+<script src="/platform/assets/js/6e070440.d1e55e52.js"></script>
+<script src="/platform/assets/js/6e922910.e4b59349.js"></script>
+<script src="/platform/assets/js/6f314626.9a09a837.js"></script>
+<script src="/platform/assets/js/70122da2.d8a2582a.js"></script>
+<script src="/platform/assets/js/7142c3ba.9fddbaeb.js"></script>
+<script src="/platform/assets/js/724ce59b.fe11d1d9.js"></script>
+<script src="/platform/assets/js/72d9ef35.5b5d471e.js"></script>
+<script src="/platform/assets/js/7308f160.69dd6512.js"></script>
+<script src="/platform/assets/js/75f1b29a.3ff80eb3.js"></script>
+<script src="/platform/assets/js/792bd774.1f2b02f2.js"></script>
+<script src="/platform/assets/js/7b6926f9.84bb832f.js"></script>
+<script src="/platform/assets/js/7bf8754e.7cc953c2.js"></script>
+<script src="/platform/assets/js/7cad2583.f76e7d75.js"></script>
+<script src="/platform/assets/js/7de49955.74dd01ae.js"></script>
+<script src="/platform/assets/js/7e9fe388.fe169ccc.js"></script>
+<script src="/platform/assets/js/7f99f37a.2c84446f.js"></script>
+<script src="/platform/assets/js/8047f2e2.287c0601.js"></script>
+<script src="/platform/assets/js/832fab57.21921f31.js"></script>
+<script src="/platform/assets/js/85a6b04a.7b1d4a04.js"></script>
+<script src="/platform/assets/js/86cb5a01.1c07535a.js"></script>
+<script src="/platform/assets/js/87a3d4f0.2e176b46.js"></script>
+<script src="/platform/assets/js/880918a0.0e274690.js"></script>
+<script src="/platform/assets/js/891952a2.2f19bcab.js"></script>
+<script src="/platform/assets/js/8978937d.460fab29.js"></script>
+<script src="/platform/assets/js/89a7c761.c8de9222.js"></script>
+<script src="/platform/assets/js/89b9dbbd.39c1ebc7.js"></script>
+<script src="/platform/assets/js/8abcb4e8.7b2d66cd.js"></script>
+<script src="/platform/assets/js/8abf7dfa.aef8d4b6.js"></script>
+<script src="/platform/assets/js/8b2e434d.ec85c9d8.js"></script>
+<script src="/platform/assets/js/8b68c33f.1567fd10.js"></script>
+<script src="/platform/assets/js/8f2b5f9d.e783db70.js"></script>
+<script src="/platform/assets/js/8f97277f.38f12e13.js"></script>
+<script src="/platform/assets/js/921d02b4.0664e858.js"></script>
+<script src="/platform/assets/js/966ad3ba.024253cf.js"></script>
+<script src="/platform/assets/js/96701661.3f251ed4.js"></script>
+<script src="/platform/assets/js/979761b2.6a8ede90.js"></script>
+<script src="/platform/assets/js/97f223ca.59cdc44d.js"></script>
+<script src="/platform/assets/js/9847492c.f347e356.js"></script>
+<script src="/platform/assets/js/98714c3e.a500d1b2.js"></script>
+<script src="/platform/assets/js/99c37fc9.3355b655.js"></script>
+<script src="/platform/assets/js/9a39e80f.54469c64.js"></script>
+<script src="/platform/assets/js/9a5f0f4d.c3a01789.js"></script>
+<script src="/platform/assets/js/9eaa3700.99cf0274.js"></script>
+<script src="/platform/assets/js/a0c3fdc4.efdb2ae8.js"></script>
+<script src="/platform/assets/js/a33aa8bf.0e95fde3.js"></script>
+<script src="/platform/assets/js/a45eee93.5a0d4cad.js"></script>
+<script src="/platform/assets/js/a599335a.113aa2da.js"></script>
+<script src="/platform/assets/js/aab6a015.7d7bcfbe.js"></script>
+<script src="/platform/assets/js/aae0e801.40c11b0e.js"></script>
+<script src="/platform/assets/js/ab11e061.f04da91b.js"></script>
+<script src="/platform/assets/js/abbda373.237fd34a.js"></script>
+<script src="/platform/assets/js/abce78e2.c533a82e.js"></script>
+<script src="/platform/assets/js/abe7c977.13325304.js"></script>
+<script src="/platform/assets/js/ac50f896.dfba073f.js"></script>
+<script src="/platform/assets/js/acfc0a1e.46ed6b83.js"></script>
+<script src="/platform/assets/js/ad15dd70.e4185481.js"></script>
+<script src="/platform/assets/js/ae5f29c1.9a7c2c45.js"></script>
+<script src="/platform/assets/js/afb5f907.19a0377b.js"></script>
+<script src="/platform/assets/js/b03b99b3.2b73638a.js"></script>
+<script src="/platform/assets/js/b1be29a4.f713fb4b.js"></script>
+<script src="/platform/assets/js/b1f3c280.3df1646a.js"></script>
+<script src="/platform/assets/js/b4eb30f8.9928ec84.js"></script>
+<script src="/platform/assets/js/b750e133.9ce9fb15.js"></script>
+<script src="/platform/assets/js/b7586aae.1800bae2.js"></script>
+<script src="/platform/assets/js/b87c5296.51395505.js"></script>
+<script src="/platform/assets/js/b87c77e9.0ffc6450.js"></script>
+<script src="/platform/assets/js/ba41da55.32dad9c8.js"></script>
+<script src="/platform/assets/js/bb3952ca.20432a77.js"></script>
+<script src="/platform/assets/js/bec381ae.50ffd757.js"></script>
+<script src="/platform/assets/js/bf48c92f.1fee823f.js"></script>
+<script src="/platform/assets/js/c226cfcb.b8d51b27.js"></script>
+<script src="/platform/assets/js/c4272b6a.fea48c98.js"></script>
+<script src="/platform/assets/js/c4e936dc.2ef48d42.js"></script>
+<script src="/platform/assets/js/c665c037.fc406243.js"></script>
+<script src="/platform/assets/js/c6d9ad80.ba5dc165.js"></script>
+<script src="/platform/assets/js/c7aa5aef.682f3f5b.js"></script>
+<script src="/platform/assets/js/c7e13485.837d84dc.js"></script>
+<script src="/platform/assets/js/c8902cf2.57d97595.js"></script>
+<script src="/platform/assets/js/c8eadaef.af92c2c2.js"></script>
+<script src="/platform/assets/js/c93c21b0.c112ba3d.js"></script>
+<script src="/platform/assets/js/ca8ce709.d5e754c2.js"></script>
+<script src="/platform/assets/js/cb430b5c.f9e545b3.js"></script>
+<script src="/platform/assets/js/cb71bf57.e2eb3853.js"></script>
+<script src="/platform/assets/js/cb827d5c.11049f51.js"></script>
+<script src="/platform/assets/js/cce28184.e9bf1354.js"></script>
+<script src="/platform/assets/js/ce81ae7f.ab922e9a.js"></script>
+<script src="/platform/assets/js/ced44c85.b727430b.js"></script>
+<script src="/platform/assets/js/cf5131d2.ebf26a24.js"></script>
+<script src="/platform/assets/js/cfb512ad.bb3567d5.js"></script>
+<script src="/platform/assets/js/d0784048.455587e7.js"></script>
+<script src="/platform/assets/js/d0efe938.854714d3.js"></script>
+<script src="/platform/assets/js/d194e558.ac8c31a2.js"></script>
+<script src="/platform/assets/js/d1fe0c2c.c5c2abaf.js"></script>
+<script src="/platform/assets/js/d232f584.750b09bf.js"></script>
+<script src="/platform/assets/js/d2a86b9f.daccbc3f.js"></script>
+<script src="/platform/assets/js/d45460e1.fb514917.js"></script>
+<script src="/platform/assets/js/d4adc898.c11501f4.js"></script>
+<script src="/platform/assets/js/d74835fb.66f02ca4.js"></script>
+<script src="/platform/assets/js/d8baea4a.d326bf4d.js"></script>
+<script src="/platform/assets/js/da1b8711.bf8542fd.js"></script>
+<script src="/platform/assets/js/da6aeb03.2e8f8213.js"></script>
+<script src="/platform/assets/js/da7e4aa8.3117f7e5.js"></script>
+<script src="/platform/assets/js/dad6bec0.b2da58d3.js"></script>
+<script src="/platform/assets/js/db91f390.8eccd32b.js"></script>
+<script src="/platform/assets/js/db92959b.70f1398b.js"></script>
+<script src="/platform/assets/js/e062d51a.601dce11.js"></script>
+<script src="/platform/assets/js/e0878370.80a7eff5.js"></script>
+<script src="/platform/assets/js/e0c02b3a.3fd70b83.js"></script>
+<script src="/platform/assets/js/e0cf2c8e.ccac2b75.js"></script>
+<script src="/platform/assets/js/e28d672e.fdfedddc.js"></script>
+<script src="/platform/assets/js/e407214d.545f75dc.js"></script>
+<script src="/platform/assets/js/e43fbe80.73dd96b4.js"></script>
+<script src="/platform/assets/js/e4b45c9c.8ed95867.js"></script>
+<script src="/platform/assets/js/e7d8d16f.5cbf9f63.js"></script>
+<script src="/platform/assets/js/e97db18e.0f6c9029.js"></script>
+<script src="/platform/assets/js/e98a046a.fc46e3b9.js"></script>
+<script src="/platform/assets/js/ecf82f20.c7c4887e.js"></script>
+<script src="/platform/assets/js/edb9f714.6130d7e2.js"></script>
+<script src="/platform/assets/js/edce5b10.dc00bf45.js"></script>
+<script src="/platform/assets/js/ee5a4541.080094e6.js"></script>
+<script src="/platform/assets/js/ee6d90eb.7e1b6aa8.js"></script>
+<script src="/platform/assets/js/eeb030b0.7f42b271.js"></script>
+<script src="/platform/assets/js/eeb8226e.9e131c54.js"></script>
+<script src="/platform/assets/js/eef11a92.ac108fa3.js"></script>
+<script src="/platform/assets/js/f02a6661.6b438467.js"></script>
+<script src="/platform/assets/js/f71812da.db2de4aa.js"></script>
+<script src="/platform/assets/js/f7273328.94687ab4.js"></script>
+<script src="/platform/assets/js/f9fad281.8d0a01b0.js"></script>
+<script src="/platform/assets/js/fa7bca0e.7403e3f4.js"></script>
+<script src="/platform/assets/js/fc4cde34.a884629c.js"></script>
+<script src="/platform/assets/js/fc9c40ca.fd98ba76.js"></script>
+<script src="/platform/assets/js/fd629b38.b3617d2e.js"></script>
+<script src="/platform/assets/js/fe09dcc3.9efc23ad.js"></script>
 </body>
 </html>
