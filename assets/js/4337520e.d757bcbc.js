@@ -1,0 +1,1 @@
+(self.webpackChunkls_fusion_docs=self.webpackChunkls_fusion_docs||[]).push([[44690],{89014:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/platform/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/platform/blog/tags/docusaurus"}')}}]);

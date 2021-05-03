@@ -1,0 +1,1 @@
+(self.webpackChunkls_fusion_docs=self.webpackChunkls_fusion_docs||[]).push([[15768],{66353:function(l){"use strict";l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/platform/blog/welcome"},{"title":"Hello","permalink":"/platform/blog/hello-world"},{"title":"Hola","permalink":"/platform/blog/hola"}]}')}}]);
