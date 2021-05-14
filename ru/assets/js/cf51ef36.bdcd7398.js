@@ -1,0 +1,1 @@
+(self.webpackChunkls_fusion_docs=self.webpackChunkls_fusion_docs||[]).push([[39842],{54493:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/ru/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/ru/blog/tags/facebook"}')}}]);
